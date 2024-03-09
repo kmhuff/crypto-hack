@@ -325,7 +325,11 @@ Site exploration occurrs in a series of rounds, each of which last one Short Tur
 
 ### Rooms in Sites
 
-### Light in Sites
+### Resource Management in Sites
+
+Most sites have an element of time pressure adding urgency and difficulty to exploration. The classic example of this is light in a fantasy dungeon. Each torch carried by the party takes up inventory space so they may only bring so many, and each torch lasts only 6 Short Turns. Other settings might have other sources of time pressure. For instance, a science fiction setting might require the party to manage oxygen levels in their suits. An enemy fortress might be well-lit and have plenty of air, but frequent and aggressive patrols by soldiers.
+
+Resources like light or air deplete at the end of each Short Turn. Running out of these resources has consequences determined by the GM. In the case of air, running out might instantly doom the party.
 
 ### Enemy Movement in Sites
 
