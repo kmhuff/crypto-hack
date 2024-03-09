@@ -302,6 +302,13 @@ A combatant taking this action may move a Short distance in addition to the Imme
 
 ### Action: Interact
 
+A catch-all action for interacting with items or the environment. An environmental interaction that harms or hinders an enemy is probably a Stunt rather than an Interact. Examples of interact actions:
+
+* Switching weapons
+* Drinking a potion
+* Pulling a lever
+* Opening/closing a door
+
 ## Site Exploration
 
 ## Wilderness Exploration
