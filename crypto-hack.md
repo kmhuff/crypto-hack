@@ -325,6 +325,8 @@ Site exploration occurrs in a series of rounds, each of which last one Short Tur
 
 ### Rooms in Sites
 
+Unlike in combat, distances in sites are measured abstractly in the form of rooms. Rooms in a site don't have to be literal rooms, they just must be small enough that the party can interact with all the object in the room more or less freely. A room should always be smaller than a Medium distance in any direction. Particularly large areas of a site may be broken up into multiple rooms. Inevitably, rooms wil be different sizes, but smaller and larger rooms will average out over time.
+
 ### Resource Management in Sites
 
 Most sites have an element of time pressure adding urgency and difficulty to exploration. The classic example of this is light in a fantasy dungeon. Each torch carried by the party takes up inventory space so they may only bring so many, and each torch lasts only 6 Short Turns. Other settings might have other sources of time pressure. For instance, a science fiction setting might require the party to manage oxygen levels in their suits. An enemy fortress might be well-lit and have plenty of air, but frequent and aggressive patrols by soldiers (see below for more on enemy movement).
