@@ -327,9 +327,15 @@ Site exploration occurrs in a series of rounds, each of which last one Short Tur
 
 ### Resource Management in Sites
 
-Most sites have an element of time pressure adding urgency and difficulty to exploration. The classic example of this is light in a fantasy dungeon. Each torch carried by the party takes up inventory space so they may only bring so many, and each torch lasts only 6 Short Turns. Other settings might have other sources of time pressure. For instance, a science fiction setting might require the party to manage oxygen levels in their suits. An enemy fortress might be well-lit and have plenty of air, but frequent and aggressive patrols by soldiers.
+Most sites have an element of time pressure adding urgency and difficulty to exploration. The classic example of this is light in a fantasy dungeon. Each torch carried by the party takes up inventory space so they may only bring so many, and each torch lasts only 6 Short Turns. Other settings might have other sources of time pressure. For instance, a science fiction setting might require the party to manage oxygen levels in their suits. An enemy fortress might be well-lit and have plenty of air, but frequent and aggressive patrols by soldiers (see below for more on enemy movement).
 
-Resources like light or air deplete at the end of each Short Turn. Running out of these resources has consequences determined by the GM. In the case of air, running out might instantly doom the party.
+Resources like light or air deplete at the end of each Short Turn. Running out of these resources has consequences, usually ending the exploration quickly. For example:
+
+**Light**: The party flees the dungeon in a stumbling panic. For each Short Turn that it would take to exit the dungeon while Moving Quickly, each PC must make a Task with an attribute and difficulty dependent on the current dungeon. If they fail, they lose one random item from their inventory and take damage of a type and amount dependent on the current dungeon.
+
+**Air**: At the end of each Short Turn, every PC without air takes 12 Might damage from suffocation.
+
+GMs are encouraged to think up new resources that are appropriate to the setting of their game or the specific sites that the PC party is exploring.
 
 ### Enemy Movement in Sites
 
