@@ -149,15 +149,13 @@ Merely having the tools needed to perform a Task does not count as a beneficial 
 
 **Long Turns**: Last 1 week. Downtime is tracked in Long Turns.
 
+Time is tracked at a certain scale depending on what the party is doing at the time. If the party is fighting, time is tracked in Immediate Turns. If they are exploring a location, it is tracked in Short Turns. 
+
 During each turn, each PC may take a single action appropriate to the activity the party is performing at the moment. For example, if the party is exploring the wilderness, each PC may take a single Wilderness Exploration action every turn. These actions include things like "Navigate the Wilderness", "Forage", and "Explore a Point of Interest'.
 
-These actions might lead to the party engaging in a different activity for part of the turn. For example, a party Navigating the Wilderness might stumble upon a Combat or Negotiation activity if they encounter other creatures.
-
-When these sub-activities are shorter than the action that lead to them, they always happen within the same turn as their parent action. For example, Navigating the Wilderness (Medium Turn) while running into a Fight (Short Turn) takes one Medium Turn.
+In addition to a single action at the current time scale, PCs may take any number of actions at a shorter time scale during a turn. For instance, the party Navigating the Wilderness (Medium Turn) might engage in a Fight and rest to patch their wounds up afterwards (2 Short Turn actions). All that activity still takes one Medium Turn.
 
 If the party is partway through an action and an event forces them to take another of the same length, both the partially completed action and the forced action occur during the same turn. For instance, a party exploring a dungon might be Moving Carefully (Short Turn) for 1 room (of a maximum of 2) before they run into some monsters and start a Fight (Short Turn). Both the movement and the combat happen during the same Short Turn. However, if that party instead moved 2 rooms (the maximum for Moving Carefully) before running into the Fight, the movement would happen during one Short Turn and the combat would happen during the next.
-
-A sub-activity will never take longer than the action that lead to it. It doesn't make sense for a party to be exploring a dungeon, then to suddenly have a wilderness exploration break out.
 
 An action never takes less than a turn, even if the sub-activities that make it up might imply that it did. For example, a party Exploring a Point of Interest descends into a dungeon and only spends 1 hour there (6 short turns). The "Explore a Point of Interest" action still takes the full 8-hour Medium Turn.
 
