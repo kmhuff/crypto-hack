@@ -363,6 +363,8 @@ GMs are encouraged to think up new resources that are appropriate to the setting
 
 ### Light Sources
 
+### Air Sources
+
 ### Base Weapon Stats
 
 **Number of Hands** **Range Type** **Damage**
@@ -419,6 +421,22 @@ These advancement benefits are not acquired with experience points, like in othe
 The GM decides what exactly merits an advancement benefit in the campaign. How exactly the GM should do this is discussed in the Game Mastering section.
 
 # Game Mastering
+
+## Designing Content for the Crypto Hack
+
+### Design Fundamentals
+
+### Combats
+
+### Puzzles
+
+### Social Challenges
+
+### Dungeons
+
+### Wilderness
+
+### Mysteries
 
 ## NPCs and Creatures
 
