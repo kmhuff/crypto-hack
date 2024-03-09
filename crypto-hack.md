@@ -151,11 +151,17 @@ Merely having the tools needed to perform a Task does not count as a beneficial 
 
 During each turn, each PC may take a single action appropriate to the activity the party is performing at the moment. For example, if the party is exploring the wilderness, each PC may take a single Wilderness Exploration action every turn. These actions include things like "Navigate the Wilderness", "Forage", and "Explore a Point of Interest'.
 
-These actions might lead to the party engaging in a different activity for part of the turn. For example, a party Navigating the Wilderness might stumble upon a Combat or Negotiation activity if they encounter other creatures. These sub-activities happen within the same Medium Turn as the Navigate the Wilderness action.
+These actions might lead to the party engaging in a different activity for part of the turn. For example, a party Navigating the Wilderness might stumble upon a Combat or Negotiation activity if they encounter other creatures.
 
-An action always takes up an entire turn, even if the sub-activities that make it up might imply that it took less time. For example, a party Exploring a Point of Interest descends into a dungeon and only spends 1 hour there (6 short turns). The "Explore a Point of Interest" action still takes the full 8-hour Medium Turn.
+When these sub-activities are shorter than the action that lead to them, they always happen within the same turn as their parent action. For example, Navigating the Wilderness (Medium Turn) while running into a Fight (Short Turn) takes one Medium Turn.
 
-An exception to this is if the sub-activities imply that the action took //more// time than its entire turn. If a party manages to explore a dungeon for more than 8 hours or fight for more than 10 minutes (an impressive feat), the action "spills over" into the next turn and the party members all automatically take it again.
+If the party is partway through an action and an event forces them to take another of the same length, both the partially completed action and the forced action occur during the same turn. For instance, a party exploring a dungon might be Moving Carefully (Short Turn) for 1 room (of a maximum of 2) before they run into some monsters and start a Fight (Short Turn). Both the movement and the combat happen during the same Short Turn. However, if that party instead moved 2 rooms (the maximum for Moving Carefully) before running into the Fight, the movement would happen during one Short Turn and the combat would happen during the next.
+
+A sub-activity will never take longer than the action that lead to it. It doesn't make sense for a party to be exploring a dungeon, then to suddenly have a wilderness exploration break out.
+
+An action never takes less than a turn, even if the sub-activities that make it up might imply that it did. For example, a party Exploring a Point of Interest descends into a dungeon and only spends 1 hour there (6 short turns). The "Explore a Point of Interest" action still takes the full 8-hour Medium Turn.
+
+On the other hand, if the sub-activities imply that the action took *more* time than its entire turn, the party must take the action again. If a party manages to explore a dungeon for more than 8 hours or fight for more than 10 minutes (both impressive feats), the action "spills over" into the next turn and the party members all automatically take it again.
 
 ## Damage
 
@@ -309,7 +315,31 @@ A catch-all action for interacting with items or the environment. An environment
 * Pulling a lever
 * Opening/closing a door
 
+### Action: Other
+
+If a PC or enemy wants to attempt an action not explicitly covered above, the GM should use the above actions as a guidline to adjudicate the effects. The answer to "can I do X?" should almost never be "no". However, the GM should inform the asking player about any consequences to their action that their character would be aware of.
+
 ## Site Exploration
+
+Site exploration occurrs in a series of rounds, each of which last one Short Turn. During each round, each PC selects a single Site Exploration Action, which are resolved simultaneously. 
+
+### Rooms in Sites
+
+### Light in Sites
+
+### Enemy Movement in Sites
+
+### Fleeing in Sites
+
+### Action: Move Carefully
+
+### Action: Move Quickly
+
+### Action: Search
+
+### Action: Fight
+
+### Action: Interact
 
 ## Wilderness Exploration
 
@@ -320,6 +350,8 @@ A catch-all action for interacting with items or the environment. An environment
 ## Downtime
 
 ## Encumbrance and Equipment
+
+### Light Sources
 
 ### Base Weapon Stats
 
