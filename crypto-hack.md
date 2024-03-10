@@ -355,6 +355,8 @@ GMs are encouraged to think up new resources that are appropriate to the setting
 
 ### Enemy Movement in Sites
 
+In most sites, potentially hostile creatures will move from room to room periodically, rather than sitting in one place for the PC party to encounter them. The GM might use one of several methods for modeling this movement, discussed in [Modeling Enemy Movement]. This movement occurs at the end of each turn. If potentially hostile creatures enter the room where the PCs currently are, the party may be forced into a negotiation or a fight.
+
 ### Fleeing in Sites
 
 ### Action: Move Carefully
@@ -443,6 +445,10 @@ These advancement benefits are not acquired with experience points, like in othe
 The GM decides what exactly merits an advancement benefit in the campaign. How exactly the GM should do this is discussed in the Game Mastering section.
 
 # Game Mastering
+
+## Running the Crypto Hack
+
+### Modeling Enemy Movement
 
 ## Designing Content for the Crypto Hack
 
