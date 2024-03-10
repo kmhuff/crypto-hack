@@ -244,15 +244,22 @@ PCs can still clash if they have no weapons or if they rely on magic or psychic 
 
 A PC using magic or fists to clash uses a "stance" that functions as a weapon, and has all of a weapon's stats. For example, here's an example stance a traditional fireball-throwing wizard might have:
 
-**Name**        **Attribute** **Damage Type** **Number of Hands** **Range Type** **Damage**
---------        ------------- --------------- ------------------- -------------- ----------
+**Name**        **Attribute** **Damage Type** **Number of Hands** **Range Type** **Damage** **Special**
+--------------- ------------- --------------- ------------------- -------------- ---------- -----------
 Fireball Stance Insight       Fire            2                   Ranged         5 
 
 Stances do not take up inventory slots. They represent knowledge a character possesses rather than something they have. Switching stances  still follows the same rules as switching weapons, however.
 
 New stances are granted by scopes, at a rate of 2 stances for 1 scope. For instance, the scope that granted the above-mentioned Fireball Stance might be "May fight with sweeping gouts of flame or many precise rays of heat". This grants the above Fireball Stance, and also a Heat Ray Stance that deals damage and retaliates as two dual-wielded ranged weapons.
 
-An unarmed clash is an open task in most settings. Unarmed characters have access to an Agile Stance that behaves as though they have a one-handed melee weapon in one hand and nothing in the other (see Duelist Stance above) and a Powerful Stance that emulates using a two-handed melee weapon. Characters that specialize in unarmed combat might have additional stances through their Scopes.
+An unarmed clash is an open task in most settings. Unarmed characters have access to two stances:
+
+**Name**        **Attribute** **Damage Type** **Number of Hands** **Range Type** **Damage** **Special**
+--------------- ------------- --------------- ------------------- -------------- ---------- -----------
+Agile Stance    Agility       Bludgeoning     2                   Standard Melee 4          Fencing
+Powerful Stance Might         Bludgeoning     2                   Standard Melee 6
+
+Characters that specialize in unarmed combat might have additional stances through their Scopes.
 
 ### Action: Stunt
 
@@ -365,7 +372,9 @@ GMs are encouraged to think up new resources that are appropriate to the setting
 
 ### Air Sources
 
-### Base Weapon Stats
+### Weapons
+
+#### Base Weapon Stats
 
 **Number of Hands** **Range Type** **Damage**
 ------------------- -------------- ----------
@@ -376,7 +385,11 @@ GMs are encouraged to think up new resources that are appropriate to the setting
 2                   Reach Melee    4
 2                   Ranged         5
 
-### Example Weapon Chart: Fantasy Setting
+#### Weapon Special Abilities
+
+**Fencing**: A two-handed weapon with this property is treated as though the weilder is weilding a one-handed weapon in one hand and nothing in the other (see [Fencing]). Weapons with this ability usually deal damage as a one-handed weapon.
+
+#### Example Weapon Chart: Fantasy Setting
 
 **Name**          **Attribute** **Damage Type** **Number of Hands** **Range Type** **Damage**
 --------          ------------- --------------- ------------------- -------------- ----------
