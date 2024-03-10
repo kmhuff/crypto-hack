@@ -359,6 +359,12 @@ In most sites, potentially hostile creatures will move from room to room periodi
 
 ### Fleeing in Sites
 
+On the PCs' turn in combat, some or all of them may choose to flee instead of acting. Only PCs that are able to take a Move action may flee, though the party is free to leave unfortunate comrades behind. Combat continues until every PC has fled, died, been captured, or is otherwise out of the fight. On the next short turn, fleeing PCs must take the Move Quickly action to get away from the site of the combat.
+
+Enemy combattants might or might not choose to pursue fleeing PCs. Cautious enemies or enemies that took significant losses or damage in the combat are less liely to pursue.
+
+Enemy combattants may also attempt to flee from the PCs. They might choose to flee in response to the combat going badly for them or an intimidating display from the PCs. GMs are encouraged to use the morale mechanics found in [Enemy Morale] to decide when enemies try to flee or surrender.
+
 ### Action: Move Carefully
 
 ### Action: Move Quickly
@@ -449,6 +455,8 @@ The GM decides what exactly merits an advancement benefit in the campaign. How e
 ## Running the Crypto Hack
 
 ### Modeling Enemy Movement
+
+### Enemy Morale
 
 ## Designing Content for the Crypto Hack
 
