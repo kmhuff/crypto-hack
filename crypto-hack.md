@@ -145,19 +145,21 @@ Merely having the tools needed to perform a Task does not count as a beneficial 
 
 **Short Turns**: Last 10 minutes. Site Exploration and Negotiation are tracked in Short Turns.
 
-**Medium Turns**: Last 8 hours. Wilderness and Settlement Exploration are tracked in Medium Turns. Usually, two Medium Turns are used for activity during the day and one is used for sleep.
+**Medium Turns**: Last 1 hour. Settlement Exploration and Mystery Solving are tracked in Medium Turns.
 
-**Long Turns**: Last 1 week. Downtime is tracked in Long Turns.
+**Long Turns**: Last 8 hours. Wilderness Exploration is tracked in Long Turns. Usually, two Long Turns are used for activity during the day and one is used for sleep.
+
+**Downtime Turns**: Last 1 week. Downtime is tracked in Downtime Turns.
 
 Time is tracked at a certain scale depending on what the party is doing at the time. If the party is fighting, time is tracked in Immediate Turns. If they are exploring a location, it is tracked in Short Turns. 
 
 During each turn, each PC may take a single action appropriate to the activity the party is performing at the moment. For example, if the party is exploring the wilderness, each PC may take a single Wilderness Exploration action every turn. These actions include things like "Navigate the Wilderness", "Forage", and "Explore a Point of Interest'.
 
-In addition to a single action at the current time scale, PCs may take any number of actions at a shorter time scale during a turn. For instance, the party Navigating the Wilderness (Medium Turn) might engage in a Fight and rest to patch their wounds up afterwards (2 Short Turn actions). All that activity still takes one Medium Turn.
+In addition to a single action at the current time scale, PCs may take any number of actions at a shorter time scale during a turn. For instance, the party Navigating the Wilderness (Long Turn) might engage in a Fight and rest to patch their wounds up afterwards (2 Short Turn actions). All that activity still takes one Long Turn.
 
 If the party is partway through an action and an event forces them to take another of the same length, both the partially completed action and the forced action occur during the same turn. For instance, a party exploring a dungon might be Moving Carefully (Short Turn) for 1 room (of a maximum of 2) before they run into some monsters and start a Fight (Short Turn). Both the movement and the combat happen during the same Short Turn. However, if that party instead moved 2 rooms (the maximum for Moving Carefully) before running into the Fight, the movement would happen during one Short Turn and the combat would happen during the next.
 
-An action never takes less than a turn, even if the sub-activities that make it up might imply that it did. For example, a party Exploring a Point of Interest descends into a dungeon and only spends 1 hour there (6 short turns). The "Explore a Point of Interest" action still takes the full 8-hour Medium Turn.
+An action never takes less than a turn, even if the sub-activities that make it up might imply that it did. For example, a party Exploring a Point of Interest descends into a dungeon and only spends 1 hour there (6 short turns). The "Explore a Point of Interest" action still takes the full 8-hour Long Turn.
 
 On the other hand, if the sub-activities imply that the action took *more* time than its entire turn, the party must take the action again. If a party manages to explore a dungeon for more than 8 hours or fight for more than 10 minutes (both impressive feats), the action "spills over" into the next turn and the party members all automatically take it again.
 
@@ -180,7 +182,7 @@ When a Pool is depleted, any damage that the PC takes to that pool overflows int
 
 Points in a pool can be restored back to their normal maximum trough rest. Each time you rest, recover a number of points equal to a d6 + your total stat Edges. These points can be divided among your Pools however you wish.
 
-The first rest you take each day takes one Immediate Turn. The next rest takes one Short Turn. The third rest of the day takes one Medium Turn. This final rest is assumed to be your sleep for the day.
+The first rest you take each day takes one Immediate Turn. The next rest takes one Short Turn. The third rest of the day takes one Long Turn. This final rest is assumed to be your sleep for the day.
 
 A full day of rest restores 3d6 + 3 * your total stat Edges.
 
@@ -378,6 +380,8 @@ Enemy combattants may also attempt to flee from the PCs. They might choose to fl
 ## Wilderness Exploration
 
 ## Settlement Exploration
+
+## Mystery Solving
 
 ## Negotiation
 
