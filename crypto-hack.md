@@ -196,6 +196,13 @@ Characters may draw weapons for free at the start of combat, but afterwards must
 
 On a creature's turn, the creature can move an Immediate distance and take one action. While the action can be anything that it would take roughly 6 seconds to do, the most common options are outlined below.
 
+## Distance in Combat
+
+**Immediate Distance**: Roughly 10 ft. If you're this close to a creature, they can close the distance and hit you with a melee attack nearly instantly.
+**Short Distance**: Roughly 50 ft. The distance that a creature can charge in an Immediate Turn.
+**Medium Distance**: Roughly 150 ft. This is the maximum range that a creature with a ranged attack can attack without penalty.
+**Long Distance**: Roughly 450 ft. Beyond this range, even ranged attacks cannot target creatures.
+
 ### Action: Clash
 
 Combatants Clash when they engage in combat and attempt to injure one another.
@@ -248,7 +255,9 @@ A PC using magic or fists to clash uses a "stance" that functions as a weapon, a
 --------------- ------------- --------------- ------------------- -------------- ---------- -----------
 Fireball Stance Insight       Fire            2                   Ranged         5 
 
-Stances do not take up inventory slots. They represent knowledge a character possesses rather than something they have. Switching stances  still follows the same rules as switching weapons, however.
+See [Weapons] for an explanation of weapon stats.
+
+Stances do not take up inventory slots. They represent knowledge a character possesses rather than something they have. PCs in a stance may also use their hands as if they are empty. Switching stances  still follows the same rules as switching weapons, however.
 
 New stances are granted by scopes, at a rate of 2 stances for 1 scope. For instance, the scope that granted the above-mentioned Fireball Stance might be "May fight with sweeping gouts of flame or many precise rays of heat". This grants the above Fireball Stance, and also a Heat Ray Stance that deals damage and retaliates as two dual-wielded ranged weapons.
 
@@ -391,8 +400,8 @@ GMs are encouraged to think up new resources that are appropriate to the setting
 
 #### Example Weapon Chart: Fantasy Setting
 
-**Name**          **Attribute** **Damage Type** **Number of Hands** **Range Type** **Damage**
---------          ------------- --------------- ------------------- -------------- ----------
+**Name**          **Attribute** **Damage Type** **Number of Hands** **Range Type** **Damage** **Special**
+----------------- ------------- --------------- ------------------- -------------- ---------- -----------
 Dagger/Shortsword Agility       Piercing        1                   Standard Melee 4
 Longsword         Agility       Slashing        1                   Standard Melee 4
 Axe               Might         Slashing        1                   Standard Melee 4
