@@ -1,6 +1,10 @@
+TODO: edit out capitalization convention
+
 # Rules
 
-## Task Resolution
+## Tasks
+
+### Task Resolution
 
 When a PC attempts to do something risky where the consequence for failure is interesting, the GM calls for a task.Tasks have a base difficulty from 0-10. PCs may reduce the difficulty through various methods (described below). The PC then rolls a d20. If they get higher than the adjusted difficulty x3, they succeed, otherwise they fail.
 
@@ -21,7 +25,7 @@ Task difficulty can be adjusted by the PCs in 3 different ways. Adjusting task d
 
 An experienced PC willing to spend time setting up and burn a lot of resources can reduce even a legendary level 10 task to a trivial 0 level.
 
-## Attempting Tasks
+### Attempting Tasks
 
 Many Tasks can be attempted by anyone. These are called open Tasks. Some of these tasks might be very difficult to those without the right skill, effort, or circumstances, but they can at least be attempted. The Task "fight with a sword" can be attempted by anyone, but only certain people are any good at it.
 
@@ -29,13 +33,27 @@ In contrast, some Tasks cannot be attempted by anyone without the necessary skil
 
 Which Tasks are open and which are closed is determined by the logic of the fictional setting you are playing in. Usually, this is fairly obvious, but when it's not, the GM makes the final ruling.
 
-## Failing Tasks
+### Trivial and Impossible Tasks
 
-TODO
+If a task's difficulty is ever dropped below 1, the task is considered trivial, and no roll is required. Any PC that attempts it automatically succeeds. Most everyday tasks are trivial.
 
-## Performing Tasks Carefully
+If a task's difficulty is 7 or greater even after adjusting its difficulty by Effort, Skill and Circumstance, the task is considered impossible, and no roll is required. Any PC that attempts it automatically fails.
 
-TODO
+### Failing Tasks
+
+When a PC fails a task, it is often obvious what the consequence should be. If a PC fails a task to jump across a gap, for instance, they will fall into the gap. However, not all tasks are so clear-cut.
+
+Most tasks have a hidden failure condition: they waste time. If a PC fails to pick a lock, for instance, they waste the Short Turn they spent making the attempt (see [Time Tracking]). Sometimes, this doesn't have much effect on the PCs. Other times, such as when the PCs are standing around in a monster-infested ruin wasting light while they could be attacked at any time, wasting time can be very significant.
+
+### Performing Tasks Carefully
+
+Sometimes, a PC wants to perform a task where the only consequence of failure is wasted time, but they aren't under any time pressure. In this case, a PC might be able to choose to take longer on the task in exchange for automatic success. If they meet the conditions to perform the task carefully and they choose to do so, a PC can spend a turn of one size longer than the original task in order to succeed automatically on the task.
+
+If the task's difficulty is 3 or lower after reducing it by Skill and Circumstance, a PC may perform the task carefully in 1 longer turn. If the adjusted difficulty is 4-6, performing the task carefully will take 3 longer turns. If the adjusted difficulty is 7 or greater, the task cannot be performed carefully at all.
+
+Notice that we're only adjusting the difficulty by Skill and Circumstance here, not Effort. A PC may not spend Effort on a task when performing it carefully.
+
+For example, a thief PC is picking the lock on a safe that the group brought with them back to their hideout. Normally picking a lock takes a Short Turn, but the group is safe, so the PC decides to pick it carefully. The lock is old and rusted but still solid, a difficulty 4 task. The PC has a scope that applies to lockpicking, so the difficulty is eased by 1 rank because of Skill. The adjusted difficulty is 3 or lower, so the PC can automatically succeed in picking the lock if they take one Medium Turn instead of a Short Turn in the attempt.
 
 ## Attributes and Effort
 
