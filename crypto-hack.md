@@ -29,6 +29,14 @@ In contrast, some Tasks cannot be attempted by anyone without the necessary skil
 
 Which Tasks are open and which are closed is determined by the logic of the fictional setting you are playing in. Usually, this is fairly obvious, but when it's not, the GM makes the final ruling.
 
+## Failing Tasks
+
+TODO
+
+## Performing Tasks Carefully
+
+TODO
+
 ## Attributes and Effort
 
 Each PC has 4 attributes:
@@ -63,6 +71,8 @@ Effort can also be applied to increase damage during combat. This is described i
 A PC's Pools also serve as their hit points. This is described in more detail below.
 
 ## Character Statements and Skill
+
+TODO: Refactor to Scope-only approach
 
 In addition to Attributes, characters are defined by a phrase known as a Statement. A few examples of Statements are:
 
@@ -199,6 +209,8 @@ Characters may draw weapons for free at the start of combat, but afterwards must
 On a creature's turn, the creature can move an Immediate distance and take one action. While the action can be anything that it would take roughly 6 seconds to do, the most common options are outlined below.
 
 ## Distance in Combat
+
+TODO: Remove Roughly
 
 **Immediate Distance**: Roughly 10 ft. If you're this close to a creature, they can close the distance and hit you with a melee attack nearly instantly.
 **Short Distance**: Roughly 50 ft. The distance that a creature can charge in an Immediate Turn.
@@ -369,31 +381,67 @@ Enemy combattants may also attempt to flee from the PCs. They might choose to fl
 
 ### Action: Move Carefully
 
+TODO
+
 ### Action: Move Quickly
+
+TODO
 
 ### Action: Search
 
+TODO
+
 ### Action: Fight
+
+TODO
 
 ### Action: Interact
 
+TODO
+
 ## Wilderness Exploration
+
+TODO
 
 ## Settlement Exploration
 
+TODO
+
 ## Mystery Solving
+
+TODO
 
 ## Negotiation
 
+TODO
+
 ## Downtime
+
+TODO
 
 ## Encumbrance and Equipment
 
+TODO
+
+### Cyphers
+
+TODO
+
+### Artifacts
+
+TODO
+
 ### Light Sources
+
+TODO
 
 ### Air Sources
 
+TODO
+
 ### Weapons
+
+TODO
 
 #### Base Weapon Stats
 
@@ -426,17 +474,33 @@ Spear             Agility       Piercing        2                   Reach Melee 
 Crossbow          Agility       Piercing        2                   Ranged         5
 Bow               Might         Piercing        2                   Ranged         5
 
+### Armor
+
 ## NPCs
 
-## Allies and Vehicles
+TODO
+
+## Allies
+
+TODO
+
+## Vehicles and Mounts
+
+TODO
 
 ## Scale
+
+TODO
 
 # Characters
 
 ## Creation
 
+TODO
+
 ## Advancement
+
+TODO: Add increased healing efficiency
 
 There are a number of ways that characters can become more powerful over the course of a campaign. Each of these advancement benefits may only be taken a certain number of times.
 
@@ -460,24 +524,56 @@ The GM decides what exactly merits an advancement benefit in the campaign. How e
 
 ### Modeling Enemy Movement
 
+TODO
+
 ### Enemy Morale
+
+TODO
+
+## Designing Settings for the Crypto Hack
+
+### Designing Character Scopes
+
+TODO: closed scopes grant one action, open scopes grant multiple from a single action class, etc
 
 ## Designing Content for the Crypto Hack
 
-### Design Fundamentals
+### Everything is a Puzzle
+
+TODO
+
+### Puzzle Design Fundamentals
+
+TODO
 
 ### Combats
 
+TODO
+
 ### Puzzles
+
+TODO
 
 ### Social Challenges
 
+TODO
+
 ### Dungeons
+
+TODO
 
 ### Wilderness
 
+TODO
+
 ### Mysteries
+
+TODO
 
 ## NPCs and Creatures
 
+TODO
+
 ## Rewards and Character Advancement
+
+TODO
