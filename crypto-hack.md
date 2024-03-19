@@ -1,3 +1,11 @@
+---
+title: The Crypto Hack
+author: Kurtis Huff
+date: 18 March 2024
+header-includes: |
+    \usepackage[textwidth=12.1cm,textheight=22cm]{geometry}
+---
+
 TODO: edit out capitalization convention
 
 # Rules
@@ -208,6 +216,8 @@ When a Pool is depleted, any damage that the PC takes to that pool overflows int
 
 ## Healing
 
+TODO: Change to dedicated healing bonus
+
 Points in a pool can be restored back to their normal maximum trough rest. Each time you rest, recover a number of points equal to a d6 + your total stat Edges. These points can be divided among your Pools however you wish.
 
 The first rest you take each day takes one Immediate Turn. The next rest takes one Short Turn. The third rest of the day takes one Long Turn. This final rest is assumed to be your sleep for the day.
@@ -226,13 +236,16 @@ Characters may draw weapons for free at the start of combat, but afterwards must
 
 On a creature's turn, the creature can move an Immediate distance and take one action. While the action can be anything that it would take roughly 6 seconds to do, the most common options are outlined below.
 
-## Distance in Combat
+### Distance in Combat
 
 TODO: Remove Roughly
 
 **Immediate Distance**: Roughly 10 ft. If you're this close to a creature, they can close the distance and hit you with a melee attack nearly instantly.
+
 **Short Distance**: Roughly 50 ft. The distance that a creature can charge in an Immediate Turn.
+
 **Medium Distance**: Roughly 150 ft. This is the maximum range that a creature with a ranged attack can attack without penalty.
+
 **Long Distance**: Roughly 450 ft. Beyond this range, even ranged attacks cannot target creatures.
 
 ### Action: Clash
@@ -283,9 +296,22 @@ PCs can still clash if they have no weapons or if they rely on magic or psychic 
 
 A PC using magic or fists to clash uses a "stance" that functions as a weapon, and has all of a weapon's stats. For example, here's an example stance a traditional fireball-throwing wizard might have:
 
+```{=latex}
+\newlength{\extraspace}
+\setlength\extraspace{4cm}
+\setlength\columnwidth{\columnwidth + \extraspace}
+\setlength\LTleft{-0.5\extraspace + \tabcolsep}
+```
+
 **Name**        **Attribute** **Damage Type** **Number of Hands** **Range Type** **Damage** **Special**
 --------------- ------------- --------------- ------------------- -------------- ---------- -----------
 Fireball Stance Insight       Fire            2                   Ranged         5 
+
+```{=latex}
+% restore old columnwidth, table placement
+\setlength\columnwidth{\linewidth - 4cm}
+\LTleft=\fill
+```
 
 See [Weapons] for an explanation of weapon stats.
 
