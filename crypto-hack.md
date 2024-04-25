@@ -96,61 +96,40 @@ Effort can also be applied to increase damage during combat. This is described i
 
 A PC's Pools also serve as their hit points. This is described in more detail below.
 
-## Character Statements and Skill
+## Scopes and Skill
 
-TODO: Refactor to Scope-only approach
+In addition to attributes, characters are defined by a number of scopes that define what they are good at and what they might be able to do that most others can't. A few examples of scopes are:
 
-In addition to Attributes, characters are defined by a phrase known as a Statement. A few examples of Statements are:
+* Craft poisons for use in combat (Medium).
+* Fight with one-handed standard melee weapons (Immediate).
+* Avoid or resist physical attacks (Immediate).
+* Pick locks and disassemble delicate machinery (Short).
+* Hack into computer systems (Short).
+* Be stealthy (Short).
+* Magically manipulate fire (Short).
+* Track creatures through the wilderness (Long).
+* Use animal magic to assist in wilderness travel (Long).
+* Find and interact with professional criminals (Medium).
+* Read emotions and thoughts (Short).
+* See glimpses of the past (Short).
 
-* A Mad Alchemist who Deals with Organized Crime. This is a starting character.
-* An Incredibly Gallant Knight-Captain who is Determined in the Face of Danger and Flies into Murderous Rages. This is a high-level character.
+As you can see, scopes are made up of two parts: action descriptions and turn length. In order for a scope to apply to an action, the action must match both the action descripton and the turn length. If a character wants to both use fire as a weapon in combat (Immediate turns) and manipulate it in more complex ways outside of combat (Short turns), they need to have two scopes.
 
-Each Statement is made of individual parts. These parts come in 3 varieties.
+GMs are generally responsible for creating most of the scopes that will be relevant to their campaign. If a player wants to create a character concept that isn't covered by the existing list of scopes provided by the GM, they should work with the GM to create the scopes that they need. GMs are entitled to say no to a player request for a scope if it doesn't fit the setting or if they feel it would be imbalanced in some way, but they are encouraged to work with players to fulfil requests. More about creating scopes in [Creating Character Scopes].
 
-* Type: This can be considered the "core" or "class" of a character. It indicates a character's profession or focus. In the above examples, "Alchemist" and "Knight-Captain" were Types.
-* Descriptor: This part of the Statement adds color and depth, often about a character's personality or mannerisms. In the above examples, "Mad" and "Incredibly Gallant" were Descriptors.
-* Focus: This often represents a secondary area of focus for the character or the methods they use to do their primary focus. In the above examples, "Deals with Organized Crime", "Is Determined in the Face of Danger", and "Flies into Murderous Rages" were Foci.
+Some scopes can allow the character to attempt closed tasks (see [Attempting Tasks]). For example, other characters in an alchemist's party wouldn't even know where to start creating a poison (a closed task), but anyone could try to avoid or resist a physical attack (an open task). A scope only allows characters to attempt closed tasks if they meet both its description and its turn length.
 
-### Scopes
+Characters start with 5 scopes. More on this in [Creation].
 
-Each Statement part comes with a Scope, a set of one or more actions that the Statement part allows the character to do or gives them bonuses to perform. Types typically have a Scope of 3 actions. Descriptors and Foci typically have Scopes of 1 action each. Here is an example of the Alchemist character's scopes:
+### Scope Advancement
 
-* Descriptor "Mad"
-  + Execute unconventional plans
-* Type "Alchemist"
-  + Create concoctions to disorient, confuse, or poison foes
-  + Create concoctions to accelerate healing, cure diseases, or remove status effects
-  + Create concoctions to alter behavior, such as inflaming anger or loosening tongues
-* Focus "Deals with Organized Crime"
-  + Find and make deals with shady criminal characters
-
-Some Scopes can allow the character to attempt closed Tasks (see Attempting Tasks). For example, other characters in the Alchemist's party wouldn't even know where to start creating a poison (a closed Task), but anyone could try to execute an unconventional plan (an open Task).
-
-When picking Scopes (more on this in the Character Creation section), Scopes that allow the character to perform closed Tasks should be narrower and more specific than others, for balance reasons. Don't create a Scope that lets the Wizard pull a trick out of their robes for literally every situation.
-
-As a corollary to this, consider narrower and more focused Types, such as Gloom Mage or Pyrokinetic instead of Wizard or Sorcerer.
-
-### Statement Advancement
-
-As a character gains power, their Statement grows longer or more complex. A character can choose to "boost" Statement parts they already possess or add new Statement parts that make sense for their story.
-
-* "Incredibly Gallant" is an example of a boosted Descriptor.
-* "Flies into Murderous Rages" is an example of an additional Focus added to the original Statement.
-
-In addition to an improved skill bonus (see below), a boosted Statement part gains an additional Scope, or changed wording on one of its existing Scopes to allow it to apply to more situations.
-
-For example, before the Knight-Captain chose to boost her "Gallant" Descriptor to "Incredibly Gallant", it had one scope: "Inspire courage in others". When she boosted the descriptor, she chose to add an additional Scope: "Banish magical fear or mental domination".
+As characters gain in power, they can gain additional scopes or empower the ones they already have. Scopes that are empowered this way are called "boosted". Boosted scopes grant additional [Skill Bonuses]. Characters can gain a total of 5 new or boosted scopes over the course of their story. More on how new or boosted scopes are acquired in [Advancement].
 
 ### Skill Bonuses
 
-A character's Statement and Scopes determine what Tasks they gain Skill bonuses on. If either a Statement part or one of its Scopes applies to the Task, then it can benefit from that Statement's skill bonus.
+If a scope applies to an action (i.e. the action matches both the scope's description and its turn length), the character gains a skill bonus on that action. Normal scopes grant a skill bonus of 1 rank. Boosted scopes grant a skill bonus of 2 ranks.
 
-Remember that characters may only attempt closed Tasks (see Attempting Tasks) if they have a Scope that allows them to do so. Having an appropriate Statement part doesn't get around this limitation. For example, none of the Alchemist's Scopes allow creating a strength potion (a closed Task), so the Alchemist can't do that, even though it seems like an Alchemist-y thing to do.
-
-A Statement part that seems likely to help in the current situation eases the task by one rank. If the Statement part is boosted, it eases the task by 2 ranks. Only the best Statement part can apply to a single Task. For example:
-
-* The Alchemist and his party are on the trail of a murderer. They need to track him down or figure out where he will strike next. Either the Alchemist's "Mad" Descriptor, or his "Deals with Organized Crime" Focus might seem relevant here, but he can only take a bonus of one of them to the Task, easing it by 1 rank.
-* The Knight-Captain is trying to get the description of the band of monsters that attacked the town out of a panicking and near-catatonic civilian. She uses her "Incredibly Gallant" Descriptor to project an aura of safety to calm the civilian. Because this is a boosted Sentence part, the Task is eased by 2 ranks.
+Only the best scope can apply to a single task.
 
 Skill bonuses cannot exceed 2 ranks.
 
@@ -552,11 +531,10 @@ There are a number of ways that characters can become more powerful over the cou
 * **Moving Toward Perfection**: You add 1 point to one of your stat Edges (your choice). Limit 5x.
 * **Extra Effort**: Your maximum Effort score increases by 1. Limit 5x.
 * **Special Training**: You increase your experience and general capability. This benefit applies one of the below effects, determined by how you got it. Limit 5x.
-  + **Improved Skills**: Boost one of your existing character statement elements.
-  + **Diverse Skills**: Add a new non-boosted Descriptor or Focus element to your character statement.
+  + **Improved Skills**: Boost one of your existing scopes.
+  + **Diverse Skills**: Add a new non-boosted scope to your character.
   + **Armor Training**: Lower the Agility cost for wearing armor by 1.
   + **Improved Recovery**: Add 2 to your recovery rolls.
-* **New Ability**: Gain a new ability that relates to one of the elements of your character statement. Limit 5x.
 
 These advancement benefits are not acquired with experience points, like in other RPGs. Instead, they are rewards for engaging with the world in specific ways, normally completing side quests and helping NPCs.
 
@@ -576,9 +554,11 @@ TODO
 
 ## Designing Settings for the Crypto Hack
 
-### Designing Character Scopes
+### Creating Character Scopes
 
-TODO: closed scopes grant one action, open scopes grant multiple from a single action class, etc
+Action descriptions should be specific enough to not apply to everything, but vague enough to apply to multiple different actions.
+
+TODO: Expand
 
 ## Designing Content for the Crypto Hack
 
