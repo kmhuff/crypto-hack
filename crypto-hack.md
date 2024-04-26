@@ -364,13 +364,19 @@ A catch-all action for interacting with items or the environment. An environment
 * Pulling a lever
 * Opening/closing a door
 
+### Action: Flee
+
+A combattant may only take this action if they could have taken a Move action. The combattant immediately flees the battle. Combat continues without the fleeing combattant, until one side or the other has fled, surrendered, died, or otherwise is unable to continue fighting.
+
+If the combat occurred in a site, the fate of the fleeing characters is determined as described in [Fleeing in Sites]. If the combat did not occurr in a site (if, for example, it occurred in the wilderness, or a city), the fleeing combattants are assumed to get away clean. If the other side wants to pursue, they must take an action to track down the fleers.
+
 ### Action: Other
 
 If a PC or enemy wants to attempt an action not explicitly covered above, the GM should use the above actions as a guidline to adjudicate the effects. The answer to "can I do X?" should almost never be "no". However, the GM should inform the asking player about any consequences to their action that their character would be aware of.
 
 ## Site Exploration
 
-Site exploration occurrs in a series of rounds, each of which last one Short Turn. During each round, each PC selects a single Site Exploration Action, which are resolved simultaneously. 
+Site exploration occurrs in a series of rounds, each of which last one Short Turn. During each round, each PC selects a single Site Exploration Action, which are resolved simultaneously.
 
 ### Rooms in Sites
 
@@ -523,14 +529,14 @@ TODO
 
 There are a number of ways that characters can become more powerful over the course of a campaign. Each of these advancement benefits may only be taken a certain number of times.
 
-* **Increasing Capabilities**: You gain 1 point to add to one of your stat Pools (your choice). Limit 20x.
-* **Moving Toward Perfection**: You add 1 point to one of your stat Edges (your choice). Limit 5x.
-* **Extra Effort**: Your maximum Effort score increases by 1. Limit 5x.
+* **Increasing Capabilities**: You gain 1 point to add to one of your stat pools (your choice). Limit 20x.
+* **Moving Toward Perfection**: You add 1 point to one of your stat edges (your choice). Limit 5x.
+* **Extra Effort**: Your maximum effort score increases by 1. Limit 5x.
 * **Deepening Resillience**: Your recovery bonus increases by 1. Limit 5x.
 * **Special Training**: You increase your experience and general capability. This benefit applies one of the below effects, determined by how you got it. Limit 5x.
   + **Improved Skills**: Boost one of your existing scopes.
   + **Diverse Skills**: Add a new non-boosted scope to your character.
-  + **Armor Training**: Lower the Agility cost for wearing armor by 1.
+  + **Armor Training**: Lower the agility cost for wearing armor by 1.
   + **Resillience Training**: Add 2 to your recovery bonus.
 
 These advancement benefits are not acquired with experience points, like in other RPGs. Instead, they are rewards for engaging with the world in specific ways, normally completing side quests and helping NPCs.
