@@ -408,23 +408,32 @@ Enemy combattants may also attempt to flee from the PCs. They might choose to fl
 
 ### Action: Move Carefully
 
-TODO
+The PCs move slowly through the site, but remain careful and watchful for danger and opportunity. The PCs move up to 2 rooms. While they are moving, they can each describe something that they are doing at the same time, which can range from simply remaining on-guard and watchful to doing something specific, like repeatedly casting a spell.
+
+Most traps are immediately obvious to a party moving carefully. It might not be obvious that a particular dungeon feature *is* a trap, and even obvious traps might have non-obvious triggers. Still, a party moving carefully will never blunder into a trap with no chance to avoid it at all.
+
+Similarly, parties moving carefully usually recieve some hint that an ambush is present before they trigger it, whether that be a smell, a sound, or something else.
 
 ### Action: Move Quickly
 
-TODO
+The PCs move quickly trough the site, but are far more vulnerable to dangerous happenstances than when they are moving slowly. The PCs move up to 4 rooms, but will blunder into any traps and ambushes in their path.
 
 ### Action: Search
 
-TODO
+The PCs carefully comb the current room for hidden treasures or features.
+
+Features in a site can either be observed, hidden, or secret. Observed features are obvious on a cursory examination of the room. The GM will tell the party about all of a room's observed features the instant they enter, no need to search. Hidden features aren't obvious without taking a bit of time and effort to look, but they aren't deliberately hidden, either. Any PC that takes the Search action in a room will find all of its Hidden features. Secret features were deliberately hidden away by previous inhabitants and take effort to find. A PC taking the search action can describe exactly how they search, if they want. If the course they describe would uncover the secret feature, they discover it.
 
 ### Action: Fight
 
-TODO
+The PCs engage in combat against hostile creatures. Refer to [Combat] to resolve a fight.
 
 ### Action: Interact
 
-TODO
+This is a catch-all action for various tasks that take a short turn within a site. Some examples of interact actions include:
+
+* Healing a companion.
+* Having a discussion or negotiation (see [Negotiation]).
 
 ## Wilderness Exploration
 
