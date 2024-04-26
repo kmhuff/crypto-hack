@@ -195,17 +195,15 @@ When a Pool is depleted, any damage that the PC takes to that pool overflows int
 
 ## Healing
 
-TODO: Change to dedicated healing bonus
-
-Points in a pool can be restored back to their normal maximum trough rest. Each time you rest, recover a number of points equal to a d6 + your total stat Edges. These points can be divided among your Pools however you wish.
+Points in a pool can be restored back to their normal maximum trough rest. Each time you rest, recover a number of points equal to a d6 + your recovery bonus. These points can be divided among your Pools however you wish. A starting character's recovery bonus is 1 and it can be improved over time. For more about improving your recovery bonus, see [Advancement].
 
 The first rest you take each day takes one Immediate Turn. The next rest takes one Short Turn. The third rest of the day takes one Long Turn. This final rest is assumed to be your sleep for the day.
 
-A full day of rest restores 3d6 + 3 * your total stat Edges.
+A full day of rest restores 3d6 + 3 * your recovery bonus.
 
 ### Medicine and Magic Healing
 
-If a character has already rested twice, a healer may attempt to grant them additional rests as an Insight Task that takes a Short Turn. The first additional rest is a difficulty 3 task, the second difficulty 5, the third difficulty 7, and the fourth difficulty 9. No more than 4 additional rests may be granted this way.
+If a character has already rested twice, a healer may attempt to grant them additional rests as a task that takes a Short Turn. The first additional rest is a difficulty 3 task, the second difficulty 5, the third difficulty 7, and the fourth difficulty 9. No more than 4 additional rests may be granted this way.
 
 ## Combat
 
@@ -523,18 +521,17 @@ TODO
 
 ## Advancement
 
-TODO: Add increased healing efficiency
-
 There are a number of ways that characters can become more powerful over the course of a campaign. Each of these advancement benefits may only be taken a certain number of times.
 
 * **Increasing Capabilities**: You gain 1 point to add to one of your stat Pools (your choice). Limit 20x.
 * **Moving Toward Perfection**: You add 1 point to one of your stat Edges (your choice). Limit 5x.
 * **Extra Effort**: Your maximum Effort score increases by 1. Limit 5x.
+* **Deepening Resillience**: Your recovery bonus increases by 1. Limit 5x.
 * **Special Training**: You increase your experience and general capability. This benefit applies one of the below effects, determined by how you got it. Limit 5x.
   + **Improved Skills**: Boost one of your existing scopes.
   + **Diverse Skills**: Add a new non-boosted scope to your character.
   + **Armor Training**: Lower the Agility cost for wearing armor by 1.
-  + **Improved Recovery**: Add 2 to your recovery rolls.
+  + **Resillience Training**: Add 2 to your recovery bonus.
 
 These advancement benefits are not acquired with experience points, like in other RPGs. Instead, they are rewards for engaging with the world in specific ways, normally completing side quests and helping NPCs.
 
