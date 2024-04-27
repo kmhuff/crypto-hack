@@ -205,6 +205,20 @@ A full day of rest restores 3d6 + 3 * your recovery bonus.
 
 If a character has already rested twice, a healer may attempt to grant them additional rests as a task that takes a Short Turn. The first additional rest is a difficulty 3 task, the second difficulty 5, the third difficulty 7, and the fourth difficulty 9. No more than 4 additional rests may be granted this way.
 
+## Universal Actions
+
+These actions can be performed by PCs at essentially any time and aren't limited to a particular context. They might take a fixed turn size or they might be able to be taken in multiple different turn sizes.
+
+### Action: Aid
+
+Give aid to an ally through expertise, magic, or just an additional hand. Attempt a task with a difficulty equal to the difficulty of your ally's task. Take a one-rank circumstance bonus on the task because you are just helping, not performing the task yourself. If you succeed, grant your ally a circumstance bonus on their task equal to your skill bonus on the task you just made. This action matches the turn size of the action that you are aiding.
+
+For example, a bard in a party of fantasy adventurers has the scope Silver Tongue Magic (infuse words with magic to amplify their affect on the hearer or reader (Short)). This scope is boosted, so tasks to which it is relevant benefit from a 2-rank skill bonus. The party's fighter is trying to persuade a local lord to give the party aid. The bard decides to use Silver Tongue Magic to aid the fighter, who has many strengths but isn't the most diplomatic sort. The difficulty of the fighter's task is 5, so the bard must succeed at a difficulty 4 task to aid (5 - 1 circumstance). The bard's Silver Tongue Magic skill bonus takes off an additional 2 ranks, making the task difficulty 2. The bard decides to roll that and gets an 8, succeeding on the task. The figher now benefits from the bard's 2 ranks of Silver Tongue Magic skill as a circumstance bonus on his task.
+
+You can aid yourself in many tasks by taking the time to set up and make your task easier for yourself. Note that each aid action takes as much time as the original action, so doing this will cause you to take, at best, twice as long to complete your task.
+
+In combat, you can take the aid action as normal, but you can also take it off your turn to aid an ally defending against a strike or stunt. You must forfeit your next turn if you do this, however.
+
 ## Combat
 
 Combat is played in a series of rounds, each of which lasts 1 Immediate Turn. At the start of combat, one PC may make an Agility task against the most agile opponent. If the PC succeeds, the PC party goes first. If the PC fails, the opponents go first. The PCs and their opponents may decide what order to act in within their side's turn.
