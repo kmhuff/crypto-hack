@@ -100,24 +100,24 @@ A PC's Pools also serve as their hit points. This is described in more detail be
 
 In addition to attributes, characters are defined by a number of scopes that define what they are good at and what they might be able to do that most others can't. A few examples of scopes are:
 
-* Craft poisons for use in combat (Medium).
-* Fight with one-handed standard melee weapons (Immediate).
-* Avoid or resist physical attacks (Immediate).
-* Pick locks and disassemble delicate machinery (Short).
-* Hack into computer systems (Short).
-* Be stealthy (Short).
-* Magically manipulate fire (Short).
-* Track creatures through the wilderness (Long).
-* Use animal magic to assist in wilderness travel (Long).
-* Find and interact with professional criminals (Medium).
-* Read emotions and thoughts (Short).
-* See glimpses of the past (Short).
+* Craft poisons for use in combat (Combat).
+* Fight with one-handed standard melee weapons (Combat).
+* Avoid or resist physical attacks (Combat).
+* Pick locks and disassemble delicate machinery (Exploration).
+* Hack into computer systems (Exploration).
+* Be stealthy (Exploration).
+* Magically manipulate fire (Exploration).
+* Track creatures through the wilderness (Exploration).
+* Use animal magic to assist in wilderness travel (Exploration).
+* Find and interact with professional criminals (Negotiation).
+* Read emotions and thoughts (Negotiation).
+* See glimpses of the past (Exploration).
 
-As you can see, scopes are made up of two parts: action descriptions and turn length. In order for a scope to apply to an action, the action must match both the action descripton and the turn length. If a character wants to both use fire as a weapon in combat (Immediate turns) and manipulate it in more complex ways outside of combat (Short turns), they need to have two scopes.
+As you can see, scopes are made up of two parts: action descriptions and type. In order for a scope to apply to an action, the action must match both the action descripton and the type. If a character wants to both use fire as a weapon in combat (obviously Combat type) and manipulate it in more complex ways outside of combat (probably Exploration type), they need to have two scopes. The three types correspond to the three types of challenges characters will most frequently face in the game, combat, exploration, and negotiation.
 
 GMs are generally responsible for creating most of the scopes that will be relevant to their campaign. If a player wants to create a character concept that isn't covered by the existing list of scopes provided by the GM, they should work with the GM to create the scopes that they need. GMs are entitled to say no to a player request for a scope if it doesn't fit the setting or if they feel it would be imbalanced in some way, but they are encouraged to work with players to fulfil requests. More about creating scopes in [Creating Character Scopes].
 
-Some scopes can allow the character to attempt closed tasks (see [Attempting Tasks]). For example, other characters in an alchemist's party wouldn't even know where to start creating a poison (a closed task), but anyone could try to avoid or resist a physical attack (an open task). A scope only allows characters to attempt closed tasks if they meet both its description and its turn length.
+Some scopes can allow the character to attempt closed tasks (see [Attempting Tasks]). For example, other characters in an alchemist's party wouldn't even know where to start creating a poison (a closed task), but anyone could try to avoid or resist a physical attack (an open task). A scope only allows characters to attempt closed tasks if they meet both its description and its type.
 
 Characters start with 5 scopes. More on this in [Creation].
 
@@ -213,7 +213,7 @@ These actions can be performed by PCs at essentially any time and aren't limited
 
 Give aid to an ally through expertise, magic, or just an additional hand. Attempt a task with a difficulty equal to the difficulty of your ally's task. Take a one-rank circumstance bonus on the task because you are just helping, not performing the task yourself. If you succeed, grant your ally a circumstance bonus on their task equal to your skill bonus on the task you just made. This action matches the turn size of the action that you are aiding.
 
-For example, a bard in a party of fantasy adventurers has the scope Silver Tongue Magic (infuse words with magic to amplify their affect on the hearer or reader (Short)). This scope is boosted, so tasks to which it is relevant benefit from a 2-rank skill bonus. The party's fighter is trying to persuade a local lord to give the party aid. The bard decides to use Silver Tongue Magic to aid the fighter, who has many strengths but isn't the most diplomatic sort. The difficulty of the fighter's task is 5, so the bard must succeed at a difficulty 4 task to aid (5 - 1 circumstance). The bard's Silver Tongue Magic skill bonus takes off an additional 2 ranks, making the task difficulty 2. The bard decides to roll that and gets an 8, succeeding on the task. The figher now benefits from the bard's 2 ranks of Silver Tongue Magic skill as a circumstance bonus on his task.
+For example, a bard in a party of fantasy adventurers has the scope Silver Tongue Magic (infuse words with magic (Negotiation)). This scope is boosted, so tasks to which it is relevant benefit from a 2-rank skill bonus. The party's fighter is trying to persuade a local lord to give the party aid. The bard decides to use Silver Tongue Magic to aid the fighter, who has many strengths but isn't the most diplomatic sort. The difficulty of the fighter's task is 5, so the bard must succeed at a difficulty 4 task to aid (5 - 1 circumstance). The bard's Silver Tongue Magic skill bonus takes off an additional 2 ranks, making the task difficulty 2. The bard decides to roll that and gets an 8, succeeding on the task. The figher now benefits from the bard's 2 ranks of Silver Tongue Magic skill as a circumstance bonus on his task.
 
 You can aid yourself in many tasks by taking the time to set up and make your task easier for yourself. Note that each aid action takes as much time as the original action, so doing this will cause you to take, at best, twice as long to complete your task.
 
@@ -388,6 +388,10 @@ If the combat occurred in a site, the fate of the fleeing characters is determin
 
 If a PC or enemy wants to attempt an action not explicitly covered above, the GM should use the above actions as a guidline to adjudicate the effects. The answer to "can I do X?" should almost never be "no". However, the GM should inform the asking player about any consequences to their action that their character would be aware of.
 
+## Negotiation
+
+TODO
+
 ## Site Exploration
 
 Site exploration occurrs in a series of rounds, each of which last one Short Turn. During each round, each PC selects a single Site Exploration Action, which are resolved simultaneously.
@@ -453,15 +457,11 @@ This is a catch-all action for various tasks that take a short turn within a sit
 
 TODO
 
-## Settlement Exploration
-
-TODO
-
 ## Mystery Solving
 
 TODO
 
-## Negotiation
+## Settlement Exploration
 
 TODO
 
