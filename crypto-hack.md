@@ -390,7 +390,57 @@ If a PC or enemy wants to attempt an action not explicitly covered above, the GM
 
 ## Negotiation
 
-TODO
+Negotiations occurr when the PCs are trying to convince an NPC to do something for them, and the NPC has reasons that they don't want to do it. The PCs must overcome the NPC's objections to get them to agree to whatever the PCs want them to do. Negotiation occurrs in a series of rounds, each of which last one short turn. During each round, the PCs speak to the NPC, or other NPCs in the vicinity, attempting to find out the primary NPC's objections and address them. Each PC may only take 1 action in a round. After each PC has taken their action, the round ends and a new one begins.
+
+### Objections
+
+Objections define a negotiation challenge. If an NPC doesn't have objections to something the PCs want them to do, it is not a negotiation. The NPC just immediately answers "yes" to the PC request. Once all objections that an NPC has to a PC request are overcome, the NPC will agree to the request.
+
+Objections come in two flavors, soft and hard. Soft objections can either be addressed or countered with an incentive. Hard objections must be addressed.
+
+For example, the PCs are trying to bribe a guard into letting them into the city without telling the authorities. The guard has a soft objection that they could get in trouble with their superiors for doing this. They also have a hard objection that the PCs are suspicious characters who might want to hurt the people of the city. The soft objection can be overcome by offering the incentive of money (a bribe). The hard objection can only be overcome by addressing it and assuring the guard of the PCs' good intentions somehow.
+
+An objection doesn't have to be overcome immediately, and it doesn't necessarily have to be overcome through the negotiation system. For instance, in the case of a party trying to convince a merchant to bring them north, one of the merchant's objections might be "there's goblins on the road, it's too dangerous right now." The party can overcome that objection through negotiation by promising to provide protection, but they could also overcome the objection by just going out and killing the goblins, removing the problem.
+
+### Patience
+
+Most NPC don't have the patience to sit around arguing endlessly. An NPC will cut off the negotiation after a fixed number of rounds. If the PCs haven't overcome all of the NPC's objections by the time that they run out of patience, the negotiation is a failure. Depending on the situation, the PCs might or might not be able to try to persuade the NPC again later.
+
+### Action: Promise
+
+Attempt to overcome an NPC's objection by promising to deal with that objection sometime in the future. This action can overcome hard objections.
+
+There is nothing preventing the PC from promising something that they don't intend to deliver on.
+
+If the promise is good enough to address the NPC's problem and the NPC trusts the PCs to follow through, the NPC can accept the promise right away. However, if the promise doesn't address the NPC's concern to their satisfaction or they don't trust the PCs to fulfil their promise, they might reject the promise. If this happens, the PC that made the promise can attempt a social task with a difficulty determined by the NPC and the PC's approach to persuade them to accept the promise anyway. They can also offer additional proof or collateral to convince the NPC to trust them.
+
+If the NPC rejects the promise and the PC is unable to convince them otherwise, the action is over and the objection is not overcome. Another PC can try to overcome the objection with a different promise, however.
+
+### Action: Offer Incentive
+
+Attempt to overcome an NPC's objection by offering the NPC something that they want. This action can only overcome soft objections.
+
+There is nothing reventing a PC from offering an incentive that can't or don't intend to deliver.
+
+If the incentive is good enough that the NPC feels that it outweighs the objection, the NPC can accept the incentive right away. Howver, if the NPC feels that incentive is to stingy when weighed against the objection, or if they suspect the PC of lying about the incentive, they might reject the PC's offer. If this happens, the PC that offered the incentive can either make another offer or attempt to persuade the NPC to accept the incentive anyway. Persuading the NPC is a task with an attribute determined by the PC's approach and a difficulty determined by the NPC and the PC's approach.
+
+If the NPC rejects the incentive and the PC is unable to convince them otherwise, the action is over and the objection is not overcome. Another PC can try to overcome the same objective with a different incentive, however.
+
+### Action: Make an Emotional Appeal
+
+Attempt to overcome an NPC's objection by attempting to persuade the NPC that giving in is the right thing to do. This action can only overcome soft objections.
+
+This appeal varies in effectiveness wildly depending on how receptive the NPC is to the PC's emotional argument. If the appeal matches the NPC's morality strongly, they might automatically accept it, overcoming the objection. If the appeal is more marginal, the PC could use a social task to persuade the NPC to accept the emotional argument anyway. If the argument isn't compelling to the NPC at all, no social skill can change that.
+
+### Action: Threaten
+
+Attempt to overcome all of an NPC's soft objections at once by threatening them or something they value. This action cannot overcome hard objections.
+
+The PC attempting the threat must attempt a willpower task with a difficulty determined by the NPC and the PC's approach. If they succeed, all of an NPC's soft objections are overcome at once. However, whether the task succeeds or fails, the NPC will be resentful of being threatened, which might impact future negotations. PCs should deploy threats with care.
+
+### Action: Other
+
+If a PC attempts an action that isn't exactly described by one of these options, GMs should use them as a guide for adjudicating the effects.
 
 ## Site Exploration
 
