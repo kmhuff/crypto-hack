@@ -6,15 +6,13 @@ header-includes: |
     \usepackage[textwidth=12.1cm,textheight=22cm]{geometry}
 ---
 
-TODO: edit out capitalization convention
-
 # Rules
 
 ## Tasks
 
 ### Task Resolution
 
-When a PC attempts to do something risky where the consequence for failure is interesting, the GM calls for a task.Tasks have a base difficulty from 0-10. PCs may reduce the difficulty through various methods (described below). The PC then rolls a d20. If they get higher than the adjusted difficulty x3, they succeed, otherwise they fail.
+When a PC attempts to do something risky where the consequence for failure is interesting, the GM calls for a task. Tasks have a base difficulty from 0-10. PCs may reduce the difficulty through various methods (described below). The PC then rolls a d20. If they get higher than the adjusted difficulty x3, they succeed, otherwise they fail.
 
 Here is a summary of the meaning of base task difficulties:
 
@@ -25,7 +23,7 @@ Here is a summary of the meaning of base task difficulties:
 4-6            A task that only trained professionals could succeed at
 7-10           A task that only legendary masters could succeed at
 
-Task difficulty can be adjusted by the PCs in 3 different ways. Adjusting task difficulty down is called "easing" a task.
+Task difficulty can be adjusted by the PCs in 3 different ways.
 
 * Effort: PCs may spend points from their stat pools to reduce difficulty (explained in more detail below). Each character has an effort limit that determines the total effort they can give to a task. It starts at 1 and can go no higher than 6.
 * Skill: Experience doing similar tasks can reduce difficulty (explained in more detail below). No character can ease a single task by more than 2 ranks because of skill.
@@ -35,11 +33,11 @@ An experienced PC willing to spend time setting up and burn a lot of resources c
 
 ### Attempting Tasks
 
-Many Tasks can be attempted by anyone. These are called open Tasks. Some of these tasks might be very difficult to those without the right skill, effort, or circumstances, but they can at least be attempted. The Task "fight with a sword" can be attempted by anyone, but only certain people are any good at it.
+Many tasks can be attempted by anyone. These are called open tasks. Some of these tasks might be very difficult to those without the right skill, effort, or circumstances, but they can at least be attempted. The task "fight with a sword" can be attempted by anyone, but only certain people are any good at it.
 
-In contrast, some Tasks cannot be attempted by anyone without the necessary skill, bloodline, cyberware, etc. These are called closed Tasks. In this case, the Task may only be attempted by a character that has a Scope explicitly permitting them to do so (more on Scopes in the Character Statements and Skill section). The Task "hack the computer with my brain" may only be attempted by a character with a Scope that allows mental hacking.
+In contrast, some tasks cannot be attempted by anyone without the necessary skill, bloodline, cyberware, etc. These are called closed tasks. In this case, the task may only be attempted by a character that has a scope explicitly permitting them to do so (more on scopes in the [Scopes and Skill] section). The task "hack the computer with my brain" may only be attempted by a character with a scope that allows mental hacking.
 
-Which Tasks are open and which are closed is determined by the logic of the fictional setting you are playing in. Usually, this is fairly obvious, but when it's not, the GM makes the final ruling.
+Which tasks are open and which are closed is determined by the logic of the fictional setting you are playing in. Usually, this is fairly obvious, but when it's not, the GM makes the final ruling.
 
 ### Trivial and Impossible Tasks
 
@@ -51,7 +49,7 @@ If a task's difficulty is 7 or greater even after adjusting its difficulty by Ef
 
 When a PC fails a task, it is often obvious what the consequence should be. If a PC fails a task to jump across a gap, for instance, they will fall into the gap. However, not all tasks are so clear-cut.
 
-Most tasks have a hidden failure condition: they waste time. If a PC fails to pick a lock, for instance, they waste the Short Turn they spent making the attempt (see [Time Tracking]). Sometimes, this doesn't have much effect on the PCs. Other times, such as when the PCs are standing around in a monster-infested ruin wasting light while they could be attacked at any time, wasting time can be very significant.
+Most tasks have a hidden failure condition: they waste time. If a PC fails to pick a lock, for instance, they waste the short turn they spent making the attempt (see [Time Tracking]). Sometimes, this doesn't have much effect on the PCs. Other times, such as when the PCs are standing around in a monster-infested ruin wasting light while they could be attacked at any time, wasting time can be very significant.
 
 ### Performing Tasks Carefully
 
@@ -61,7 +59,7 @@ If the task's difficulty is 3 or lower after reducing it by Skill and Circumstan
 
 Notice that we're only adjusting the difficulty by Skill and Circumstance here, not Effort. A PC may not spend Effort on a task when performing it carefully.
 
-For example, a thief PC is picking the lock on a safe that the group brought with them back to their hideout. Normally picking a lock takes a Short Turn, but the group is safe, so the PC decides to pick it carefully. The lock is old and rusted but still solid, a difficulty 4 task. The PC has a scope that applies to lockpicking, so the difficulty is eased by 1 rank because of Skill. The adjusted difficulty is 3 or lower, so the PC can automatically succeed in picking the lock if they take one Medium Turn instead of a Short Turn in the attempt.
+For example, a thief PC is picking the lock on a safe that the group brought with them back to their hideout. Normally picking a lock takes a short turn, but the group is safe, so the PC decides to pick it carefully. The lock is old and rusted but still solid, a difficulty 4 task. The PC has a scope that applies to lockpicking, so the difficulty is eased by 1 rank because of Skill. The adjusted difficulty is 3 or lower, so the PC can automatically succeed in picking the lock if they take one medium turn instead of a short turn in the attempt.
 
 ## Attributes and Effort
 
@@ -74,27 +72,27 @@ Each PC has 4 attributes:
 
 Each task is associated with a particular attribute. For example:
 
-* Moving a boulder is a Might task
-* Dodging an arrow is an Agility task
-* Noticing a hidden foe is an Insight task
-* Intimidating an enemy is a Willpower task
+* Moving a boulder is a might task
+* Dodging an arrow is an agility task
+* Noticing a hidden foe is an insight task
+* Intimidating an enemy is a willpower task
 
-Each stat has two components: a Pool and an Edge.
+Each stat has two components: a pool and an edge.
 
-* The Pool represents a character's raw potential in that stat
-* The Edge represents a character's training or experience in using that stat.
+* The pool represents a character's raw potential in that stat
+* The edge represents a character's training or experience in using that stat.
 
-For example, an experienced adventurer who never got much book learning and is partially deaf in one ear might have a low Insight Pool but a high Insight Edge.
+For example, an experienced adventurer who never got much book learning and is partially deaf in one ear might have a low insight pool but a high insight edge.
 
-PCs can apply effort to tasks by spending points from the Pool of the associated stat. The process works like this:
+PCs can apply effort to tasks by spending points from the pool of the associated stat. The process works like this:
 
-#. Spend 3 points from the Pool to apply the first level of effort
-#. Add additional levels of effort by spending 2 Pool points each. You can only do this up to the PC's maximum effort value. A starting character has a maximum effort of 1, so can never perform this step.
-#. Subtract the relevant Edge from the points you spend. So a PC with an Edge of 1 in the relevant skill can apply one level of effort for 2 Pool points, or two levels of effort for 4 Pool points.
+#. Spend 3 points from the pool to apply the first level of effort
+#. Add additional levels of effort by spending 2 pool points each. You can only do this up to the PC's maximum effort value. A starting character has a maximum effort of 1, so can never perform this step.
+#. Subtract the relevant edge from the points you spend. So a PC with an edge of 1 in the relevant skill can apply one level of effort for 2 pool points, or two levels of effort for 4 pool points.
 
 Effort can also be applied to increase damage during combat. This is described in more detail below.
 
-A PC's Pools also serve as their hit points. This is described in more detail below.
+A PC's pools also serve as their hit points. This is described in more detail below.
 
 ## Scopes and Skill
 
@@ -139,7 +137,7 @@ Beneficial circumstances can ease the difficulty of a check by up to 2 levels. T
 
 Some examples of circumstances easing a check follow:
 
-* Being helped by an ally that knows what they're doing.
+* Being helped by an ally (see [Action: Aid]).
 * Attacking an enemy that is hindered by distraction, a temporary status, etc.
 * Referring to a rough map to find your way through a dangerous location.
 * Offering a glass of a dignitary's favorite tea before engaging in a negotiation.
@@ -150,64 +148,64 @@ Some examples of overwhelming circumstances are:
 * Using a detailed, up-to-date map with landmarks to find your way through a dangerous location.
 * Using a character reference that your interlocutor trusts to convince them that you will keep your word.
 
-Circumstances can also be detrimental to a Task. 2 detrimental circumstances may stack, or one circumstance can be overwhelmingly detrimental, exactly like beneficial circumstances. Detrimental circumstances are also limited to 2 ranks.
+Circumstances can also be detrimental to a task. 2 detrimental circumstances may stack, or one circumstance can be overwhelmingly detrimental, exactly like beneficial circumstances. Detrimental circumstances are also limited to 2 ranks.
 
-Merely having the tools needed to perform a Task does not count as a beneficial circumstance for the Task. In fact, lacking the tools necessary to perform a task would likely count as a detrimental circumstance.
+Merely having the tools needed to perform a task does not count as a beneficial circumstance for the task. In fact, lacking the tools necessary to perform a task would likely count as a detrimental circumstance.
 
 ## Time Tracking
 
-**Immediate Turns**: Last 6 seconds. Combat is tracked in Immediate Turns.
+**Immediate Turns**: Last 6 seconds. Combat is tracked in immediate turns.
 
-**Short Turns**: Last 10 minutes. Site Exploration and Negotiation are tracked in Short Turns.
+**Short Turns**: Last 10 minutes. Site Exploration and Negotiation are tracked in short turns.
 
-**Medium Turns**: Last 1 hour. Settlement Exploration and Mystery Solving are tracked in Medium Turns.
+**Medium Turns**: Last 1 hour. Settlement Exploration and Mystery Solving are tracked in medium turns.
 
-**Long Turns**: Last 8 hours. Wilderness Exploration is tracked in Long Turns. Usually, two Long Turns are used for activity during the day and one is used for sleep.
+**Long Turns**: Last 8 hours. Wilderness Exploration is tracked in long turns. Usually, two long turns are used for activity during the day and one is used for sleep.
 
-**Downtime Turns**: Last 1 week. Downtime is tracked in Downtime Turns.
+**Downtime Turns**: Last 1 week. Downtime is tracked in downtime turns.
 
-Time is tracked at a certain scale depending on what the party is doing at the time. If the party is fighting, time is tracked in Immediate Turns. If they are exploring a location, it is tracked in Short Turns. 
+Time is tracked at a certain scale depending on what the party is doing at the time. If the party is fighting, time is tracked in immediate turns. If they are exploring a location, it is tracked in short turns. 
 
 During each turn, each PC may take a single action appropriate to the activity the party is performing at the moment. For example, if the party is exploring the wilderness, each PC may take a single Wilderness Exploration action every turn. These actions include things like "Navigate the Wilderness", "Forage", and "Explore a Point of Interest'.
 
-In addition to a single action at the current time scale, PCs may take any number of actions at a shorter time scale during a turn. For instance, the party Navigating the Wilderness (Long Turn) might engage in a Fight and rest to patch their wounds up afterwards (2 Short Turn actions). All that activity still takes one Long Turn.
+In addition to a single action at the current time scale, PCs may take any number of actions at a shorter time scale during a turn. For instance, the party Navigating the Wilderness (long turn) might engage in a Fight and rest to patch their wounds up afterwards (2 short turn actions). All that activity still takes one long turn.
 
-If the party is partway through an action and an event forces them to take another of the same length, both the partially completed action and the forced action occur during the same turn. For instance, a party exploring a dungon might be Moving Carefully (Short Turn) for 1 room (of a maximum of 2) before they run into some monsters and start a Fight (Short Turn). Both the movement and the combat happen during the same Short Turn. However, if that party instead moved 2 rooms (the maximum for Moving Carefully) before running into the Fight, the movement would happen during one Short Turn and the combat would happen during the next.
+If the party is partway through an action and an event forces them to take another of the same length, both the partially completed action and the forced action occur during the same turn. For instance, a party exploring a dungon might be Moving Carefully (short turn) for 1 room (of a maximum of 2) before they run into some monsters and start a Fight (short turn). Both the movement and the combat happen during the same short turn. However, if that party instead moved 2 rooms (the maximum for Moving Carefully) before running into the Fight, the movement would happen during one short turn and the combat would happen during the next.
 
-An action never takes less than a turn, even if the sub-activities that make it up might imply that it did. For example, a party Exploring a Point of Interest descends into a dungeon and only spends 1 hour there (6 short turns). The "Explore a Point of Interest" action still takes the full 8-hour Long Turn.
+An action never takes less than a turn, even if the sub-activities that make it up might imply that it did. For example, a party Exploring a Point of Interest descends into a dungeon and only spends 1 hour there (6 short turns). The "Explore a Point of Interest" action still takes the full 8-hour long turn.
 
 On the other hand, if the sub-activities imply that the action took *more* time than its entire turn, the party must take the action again. If a party manages to explore a dungeon for more than 8 hours or fight for more than 10 minutes (both impressive feats), the action "spills over" into the next turn and the party members all automatically take it again.
 
 ## Damage
 
-Damage dealt to a PC is applied to one of that PC's Pools, depending on the source.
+Damage dealt to a PC is applied to one of that PC's pools, depending on the source.
 
-* A slashing or stabbing attack targets the Might Pool.
-* A bashing or bruising attack targets the Agility Pool.
-* Mental attacks or assaults on the senses (pepper spray, flashbangs) target the Insight Pool.
-* Intimidation or fear effects, magical or mundane, target the Willpower Pool.
+* A slashing or stabbing attack targets the might pool.
+* A bashing or bruising attack targets the agility pool.
+* Mental attacks or assaults on the senses (pepper spray, flashbangs) target the insight pool.
+* Intimidation or fear effects, magical or mundane, target the willpower pool.
 
-These aren't the only types of damage a PC might face, but they should give you a good idea of what the various Pools are for.
+These aren't the only types of damage a PC might face, but they should give you a good idea of what the various pools are for.
 
-When a Pool becomes entirely depleted, the PC loses the ability to attempt Tasks above level 0 from that Stat. A Might-depleted PC can barely drag themselves across the room, let alone lift something heavy, for instance. When all of a PC's pools are completely depleted, they die.
+When a pool becomes entirely depleted, the PC loses the ability to attempt tasks above level 0 from that Stat. A might-depleted PC can barely drag themselves across the room, let alone lift something heavy, for instance. When all of a PC's pools are completely depleted, they die.
 
-When a Pool is depleted, any damage that the PC takes to that pool overflows into the next-most logical Pool. Usually this means that physical attacks flow into the other physical pool and mental attacks flow into the other mental pool. This overflowing continues if there is more than one depleted pool. For example, a character with a depleted Might pool that takes a slashing attack (normally Might damage), would instead take the damage to Agility. If that character's Agility pool was also depleted, they would take the damage to Insight instead.
+When a pool is depleted, any damage that the PC takes to that pool overflows into the next-most logical pool. Usually this means that physical attacks flow into the other physical pool and mental attacks flow into the other mental pool. This overflowing continues if there is more than one depleted pool. For example, a character with a depleted might pool that takes a slashing attack (normally might damage), would instead take the damage to agility. If that character's agility pool was also depleted, they would take the damage to insight instead.
 
 ## Healing
 
-Points in a pool can be restored back to their normal maximum trough rest. Each time you rest, recover a number of points equal to a d6 + your recovery bonus. These points can be divided among your Pools however you wish. A starting character's recovery bonus is 1 and it can be improved over time. For more about improving your recovery bonus, see [Advancement].
+Points in a pool can be restored back to their normal maximum trough rest. Each time you rest, recover a number of points equal to a d6 + your recovery bonus. These points can be divided among your pools however you wish. A starting character's recovery bonus is 1 and it can be improved over time. For more about improving your recovery bonus, see [Advancement].
 
-The first rest you take each day takes one Immediate Turn. The next rest takes one Short Turn. The third rest of the day takes one Long Turn. This final rest is assumed to be your sleep for the day.
+The first rest you take each day takes one immediate turn. The next rest takes one short turn. The third rest of the day takes one long turn. This final rest is assumed to be your sleep for the day.
 
 A full day of rest restores 3d6 + 3 * your recovery bonus.
 
 ### Medicine and Magic Healing
 
-If a character has already rested twice, a healer may attempt to grant them additional rests as a task that takes a Short Turn. The first additional rest is a difficulty 3 task, the second difficulty 5, the third difficulty 7, and the fourth difficulty 9. No more than 4 additional rests may be granted this way.
+If a character has already rested twice, a healer may attempt to grant them additional rests as a task that takes a short turn. The first additional rest is a difficulty 3 task, the second difficulty 5, the third difficulty 7, and the fourth difficulty 9. No more than 4 additional rests may be granted this way.
 
 ## Universal Actions
 
-These actions can be performed by PCs at essentially any time and aren't limited to a particular context. They might take a fixed turn size or they might be able to be taken in multiple different turn sizes.
+These actions can be performed by PCs at any time and aren't limited to a particular context. They might take a fixed turn size or they might be able to be taken in multiple different turn sizes.
 
 ### Action: Aid
 
@@ -221,9 +219,9 @@ In combat, you can take the aid action as normal, but you can also take it off y
 
 ## Combat
 
-Combat is played in a series of rounds, each of which lasts 1 Immediate Turn. At the start of combat, one PC may make an Agility task against the most agile opponent. If the PC succeeds, the PC party goes first. If the PC fails, the opponents go first. The PCs and their opponents may decide what order to act in within their side's turn.
+Combat is played in a series of rounds, each of which lasts 1 immediate turn. At the start of combat, one PC may make an agility task against the most agile opponent. If the PC succeeds, the PC party goes first. If the PC fails, the opponents go first. The PCs and their opponents may decide what order to act in within their side's turn.
 
-Characters may draw weapons for free at the start of combat, but afterwards must take an Interact action to change weapons.
+Characters may draw weapons for free at the start of combat, but afterwards must take an interact action to change weapons.
 
 On a creature's turn, the creature can move an Immediate distance and take one action. While the action can be anything that it would take roughly 6 seconds to do, the most common options are outlined below.
 
@@ -233,7 +231,7 @@ TODO: Remove Roughly
 
 **Immediate Distance**: Roughly 10 ft. If you're this close to a creature, they can close the distance and hit you with a melee attack nearly instantly.
 
-**Short Distance**: Roughly 50 ft. The distance that a creature can charge in an Immediate Turn.
+**Short Distance**: Roughly 50 ft. The distance that a creature can charge in an immediate turn.
 
 **Medium Distance**: Roughly 150 ft. This is the maximum range that a creature with a ranged attack can attack without penalty.
 
@@ -241,11 +239,11 @@ TODO: Remove Roughly
 
 ### Action: Clash
 
-Combatants Clash when they engage in combat and attempt to injure one another.
+Combatants clash when they engage in combat and attempt to injure one another.
 
-A Clash has an attacker and a defender. Whether the PC is the attacker or the defender, the Clash is resolved as a Task against the enemy's difficulty. If the attacker wins the Clash, they deal their weapon's damage to the defender. If the defender wins, they take no damage, and they might deal their weapon's damage to the attacker depending on their weapon.
+A clash has an attacker and a defender. Whether the PC is the attacker or the defender, the clash is resolved as a task against the enemy's difficulty. If the attacker wins the clash, they deal their weapon's damage to the defender. If the defender wins, they take no damage, and they might deal their weapon's damage to the attacker depending on their weapon.
 
-The attribute of the Task is determined by the table below:
+The attribute of the task is determined by the table below:
 
 **PC**                    **Attribute**
 -----------------------   -------------
@@ -275,7 +273,7 @@ A PC wielding a one-handed weapon in one hand and a shield in the other takes 2 
 
 #### Dual Wielding
 
-A PC wielding two one-handed weapons may roll again if they lost the first Task of the Clash and are the attacker or capable of retaliation. This second Task uses the same Effort, Circumstances, and Skill as the first. If the PC succeeds on the second task, both the PC and the enemy deal their damage to one another. If they fail, only the enemy does damage.
+A PC wielding two one-handed weapons may roll again if they lost the first task of the clash and are the attacker or capable of retaliation. This second task uses the same Effort, Circumstances, and Skill as the first. If the PC succeeds on the second task, both the PC and the enemy deal their damage to one another. If they fail, only the enemy does damage.
 
 #### Fencing
 
@@ -317,35 +315,35 @@ An unarmed clash is an open task in most settings. Unarmed characters have acces
 Agile Stance    Agility       Bludgeoning     2                   Standard Melee 4          Fencing
 Powerful Stance Might         Bludgeoning     2                   Standard Melee 6
 
-Characters that specialize in unarmed combat might have additional stances through their Scopes.
+Characters that specialize in unarmed combat might have additional stances through their scopes.
 
 ### Action: Stunt
 
 Stunts are attempts by one combatant to reduce the effectiveness of another through the use of cleverness and dirty tricks. Things like tripping, disarming, pocket sand, and intimidation are all stunts.
 
-Usually a stunt is resolved as a Task against the enemy's difficulty, though the GM has the right to change this in the case of unusual stunts. If the Task succeeds, the target suffers the stunt's negative effects. If it fails, nothing happens. Targets cannot perform a "retaliatory stunt".
+Usually a stunt is resolved as a task against the enemy's difficulty, though the GM has the right to change this in the case of unusual stunts. If the task succeeds, the target suffers the stunt's negative effects. If it fails, nothing happens. Targets cannot perform a "retaliatory stunt".
 
-Some enemies might be more difficult to affect with stunts than others. Quadrupedal creatures are more difficult to trip than bipeds, for instance, and ghosts can't be tripped at all. Usually, when a creature is more difficult to affect with a stunt, the Task is made at a 2-level penalty.
+Some enemies might be more difficult to affect with stunts than others. Quadrupedal creatures are more difficult to trip than bipeds, for instance, and ghosts can't be tripped at all. Usually, when a creature is more difficult to affect with a stunt, the task is made at a 2-level penalty.
 
-Similarly, it is usually difficult to affect the same enemy with a stunt multiple times. A 1-level penalty is applied to the stunt Task for each time this particular stunt has been used against an enemy before.
+Similarly, it is usually difficult to affect the same enemy with a stunt multiple times. A 1-level penalty is applied to the stunt task for each time this particular stunt has been used against an enemy before.
 
-Stunts are meant to be expressions of player creativity, and they're certainly not limited to the examples presented here. GMs should adjudicate the negative effects of a novel stunt their players want to try, using the examples as a guide. As a catch-all, a 2-level penalty to Clash and Stunt Tasks until a condition is met is often appropriate.
+Stunts are meant to be expressions of player creativity, and they're certainly not limited to the examples presented here. GMs should adjudicate the negative effects of a novel stunt their players want to try, using the examples as a guide. As a catch-all, a 2-level penalty to clash and stunt tasks until a condition is met is often appropriate.
 
 The negative effects of multiple stunts don't stack, but they do apply multiple conditions that a target must clear before returning to full function.
 
-**Trip**: Agility or Might task. A target takes a 2-level penalty to Clash and Stunt Tasks until they take a Move action to stand.
+**Trip**: Agility or might task. A target takes a 2-level penalty to clash and stunt tasks until they take a move action to stand.
 
 **Shove**: Might task. The target is forced backwards an immediate distance, potentially forcing them into environmental hazards such as traps or pits.
 
-**Disarm**: Agility or Might task. The target's weapon lands on the ground within an immediate distance. A target takes a 2-level penalty to Clash Tasks until they retrieve a weapon (their old one or a new one).
+**Disarm**: Agility or might task. The target's weapon lands on the ground within an immediate distance. A target takes a 2-level penalty to clash tasks until they retrieve a weapon (their old one or a new one).
 
-**Pocket Sand**: Agility task. The target takes a 2-level penalty to Clash and Stunt Tasks until they take an Interact action to clear their eyes.
+**Pocket Sand**: Agility task. The target takes a 2-level penalty to clash and stunt tasks until they take an interact action to clear their eyes.
 
-**Intimidate**: Willpower task. The target takes a 2-level penalty to Clash and Stunt Tasks made against the intimidator until the intimidator takes damage or suffers a stunt from any source.
+**Intimidate**: Willpower task. The target takes a 2-level penalty to clash and stunt tasks made against the intimidator until the intimidator takes damage or suffers a stunt from any source.
 
-**Sherlock Scan**: Insight task. The target takes a 2-level penalty to Clash and Stunt tasks from the scanner only until they take an interact action to fix whatever vulnerability the scanner noticed.
+**Sherlock Scan**: Insight task. The target takes a 2-level penalty to clash and stunt tasks from the scanner only until they take an interact action to fix whatever vulnerability the scanner noticed.
 
-**Enraging Insult**: Insight or Willpower task. The target takes a 2-level penalty to Clash and Stunt tasks against all creatures other than the insulter until it takes damage or is subject to a stunt from a creature other than the insulter.
+**Enraging Insult**: Insight or willpower task. The target takes a 2-level penalty to clash and stunt tasks against all creatures other than the insulter until it takes damage or is subject to a stunt from a creature other than the insulter.
 
 **Sleep Spell**: Insight task. The target can't act until it takes damage, is harshly jostled, or another creature takes an action to shake it awake.
 
@@ -353,17 +351,17 @@ The negative effects of multiple stunts don't stack, but they do apply multiple 
 
 These actions allow a combatant to "charge up" a particularly powerful attack or ability and release it on their next turn.
 
-This charged ability can either be an area effect, targeting all creatures within an immediate distance of some origin point, or a focused effect, targeting a single creature with three separate actions. The user of the charged ability chooses one action (in the case of an area effect) or three actions (in the case of a focused effect) that the charged ability will use. These actions can be anything, but are most often Clash or Stunt.
+This charged ability can either be an area effect, targeting all creatures within an immediate distance of some origin point, or a focused effect, targeting a single creature with three separate actions. The user of the charged ability chooses one action (in the case of an area effect) or three actions (in the case of a focused effect) that the charged ability will use. These actions can be anything, but are most often clash or stunt.
 
-Whether the charged ability is an area effect or a focus effect, which creatures are being targeted, and what actions are being used is determined when the user of the charged ability takes the Wind Up action.
+Whether the charged ability is an area effect or a focus effect, which creatures are being targeted, and what actions are being used is determined when the user of the charged ability takes the wind up action.
 
-Other creatures in the combat can tell that a creature is winding up a charged ability. A PC can hide the nature and target(s) of the charged ability from NPC opponents with a Willpower Task against the most observant opponent. If an NPC opponent is using a charged attack, the most observant PC may make an Insight Task against that NPC to determine the nature and target(s) of the attack.
+Other creatures in the combat can tell that a creature is winding up a charged ability. A PC can hide the nature and target(s) of the charged ability from NPC opponents with a willpower task against the most observant opponent. If an NPC opponent is using a charged attack, the most observant PC may make an insight task against that NPC to determine the nature and target(s) of the attack.
 
-The turn after a creature has taken the Wind Up action, it can take the Release action to unleash the charged ability. The creature can move an Immediate distance before taking the Release action, like normal. It may also move the origin of an area effect up to an Immediate distance as part of its movement. If it fails to use the Release action before the end of its turn, if the intended target has run away, for example, the charged ability is lost.
+The turn after a creature has taken the wind up action, it can take the release action to unleash the charged ability. The creature can move an Immediate distance before taking the release action, like normal. It may also move the origin of an area effect up to an Immediate distance as part of its movement. If it fails to use the release action before the end of its turn, if the intended target has run away, for example, the charged ability is lost.
 
-When a PC is taking the Release action, they may commit effort once for all Tasks rolled as part of the Release, but must roll for each Task separately. If the Tasks that will be rolled as part of the Release use different attributes, use the attribute with the lowest Edge when committing effort.
+When a PC is taking the release action, they may commit effort once for all tasks rolled as part of the release, but must roll for each task separately. If the tasks that will be rolled as part of the release use different attributes, use the attribute with the lowest edge when committing effort.
 
-When making a Strike as part of a Release, the defender may never retaliate, no matter their weapon.
+When making a clash as part of a release, the defender may never retaliate, no matter their weapon.
 
 ### Action: Move
 
@@ -371,7 +369,7 @@ A combatant taking this action may move a Short distance in addition to the Imme
 
 ### Action: Interact
 
-A catch-all action for interacting with items or the environment. An environmental interaction that harms or hinders an enemy is probably a Stunt rather than an Interact. Examples of interact actions:
+A catch-all action for interacting with items or the environment. An environmental interaction that harms or hinders an enemy is probably a stunt rather than an interact. Examples of interact actions:
 
 * Switching weapons
 * Drinking a potion
@@ -380,7 +378,7 @@ A catch-all action for interacting with items or the environment. An environment
 
 ### Action: Flee
 
-A combattant may only take this action if they could have taken a Move action. The combattant immediately flees the battle. Combat continues without the fleeing combattant, until one side or the other has fled, surrendered, died, or otherwise is unable to continue fighting.
+A combattant may only take this action if they could have taken a move action. The combattant immediately flees the battle. Combat continues without the fleeing combattant, until one side or the other has fled, surrendered, died, or otherwise is unable to continue fighting.
 
 If the combat occurred in a site, the fate of the fleeing characters is determined as described in [Fleeing in Sites]. If the combat did not occurr in a site (if, for example, it occurred in the wilderness, or a city), the fleeing combattants are assumed to get away clean. If the other side wants to pursue, they must take an action to track down the fleers.
 
@@ -396,7 +394,7 @@ Negotiations occurr when the PCs are trying to convince an NPC to do something f
 
 Objections define a negotiation challenge. If an NPC doesn't have objections to something the PCs want them to do, it is not a negotiation. The NPC just immediately answers "yes" to the PC request. Once all objections that an NPC has to a PC request are overcome, the NPC will agree to the request.
 
-Objections come in two flavors, soft and hard. Soft objections can either be addressed or countered with an incentive. Hard objections must be addressed.
+Objections come in two flavors, soft and hard. Soft objections can either be addressed or countered with an incentive. Hard objections must be addressed. They represent objections that the NPC takes very seriously and is willing to take risks for.
 
 For example, the PCs are trying to bribe a guard into letting them into the city without telling the authorities. The guard has a soft objection that they could get in trouble with their superiors for doing this. They also have a hard objection that the PCs are suspicious characters who might want to hurt the people of the city. The soft objection can be overcome by offering the incentive of money (a bribe). The hard objection can only be overcome by addressing it and assuring the guard of the PCs' good intentions somehow.
 
@@ -444,7 +442,7 @@ If a PC attempts an action that isn't exactly described by one of these options,
 
 ## Site Exploration
 
-Site exploration occurrs in a series of rounds, each of which last one Short Turn. During each round, each PC selects a single Site Exploration Action, which are resolved simultaneously.
+Site exploration occurrs in a series of rounds, each of which last one short turn. During each round, each PC selects a single Site Exploration Action, which are resolved simultaneously.
 
 ### Rooms in Sites
 
@@ -452,13 +450,13 @@ Unlike in combat, distances in sites are measured abstractly in the form of room
 
 ### Resource Management in Sites
 
-Most sites have an element of time pressure adding urgency and difficulty to exploration. The classic example of this is light in a fantasy dungeon. Each torch carried by the party takes up inventory space so they may only bring so many, and each torch lasts only 6 Short Turns. Other settings might have other sources of time pressure. For instance, a science fiction setting might require the party to manage oxygen levels in their suits. An enemy fortress might be well-lit and have plenty of air, but frequent and aggressive patrols by soldiers (see below for more on enemy movement).
+Most sites have an element of time pressure adding urgency and difficulty to exploration. The classic example of this is light in a fantasy dungeon. Each torch carried by the party takes up inventory space so they may only bring so many, and each torch lasts only 6 short turns. Other settings might have other sources of time pressure. For instance, a science fiction setting might require the party to manage oxygen levels in their suits. An enemy fortress might be well-lit and have plenty of air, but frequent and aggressive patrols by soldiers (see below for more on enemy movement).
 
-Resources like light or air deplete at the end of each Short Turn. Running out of these resources has consequences, usually ending the exploration quickly. For example:
+Resources like light or air deplete at the end of each short turn. Running out of these resources has consequences, usually ending the exploration quickly. For example:
 
-**Light**: The party flees the dungeon in a stumbling panic. For each Short Turn that it would take to exit the dungeon while Moving Quickly, each PC must make a Task with an attribute and difficulty dependent on the current dungeon. If they fail, they lose one random item from their inventory and take damage of a type and amount dependent on the current dungeon.
+**Light**: The party flees the dungeon in a stumbling panic. For each short turn that it would take to exit the dungeon while Moving Quickly, each PC must make a task with an attribute and difficulty dependent on the current dungeon. If they fail, they lose one random item from their inventory and take damage of a type and amount dependent on the current dungeon.
 
-**Air**: At the end of each Short Turn, every PC without air takes 12 Might damage from suffocation.
+**Air**: At the end of each short turn, every PC without air takes 12 might damage from suffocation.
 
 GMs are encouraged to think up new resources that are appropriate to the setting of their game or the specific sites that the PC party is exploring.
 
