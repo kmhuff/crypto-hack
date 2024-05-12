@@ -227,15 +227,13 @@ On a creature's turn, the creature can move an Immediate distance and take one a
 
 ### Distance in Combat
 
-TODO: Remove Roughly
+**Immediate Distance**: 10 ft. If you're this close to a creature, they can close the distance and hit you with a melee attack nearly instantly.
 
-**Immediate Distance**: Roughly 10 ft. If you're this close to a creature, they can close the distance and hit you with a melee attack nearly instantly.
+**Short Distance**: 50 ft. The distance that a creature can charge in an immediate turn.
 
-**Short Distance**: Roughly 50 ft. The distance that a creature can charge in an immediate turn.
+**Medium Distance**: 150 ft. This is the maximum range that a creature with a ranged attack can attack without penalty.
 
-**Medium Distance**: Roughly 150 ft. This is the maximum range that a creature with a ranged attack can attack without penalty.
-
-**Long Distance**: Roughly 450 ft. Beyond this range, even ranged attacks cannot target creatures.
+**Long Distance**: 450 ft. Beyond this range, even ranged attacks cannot target creatures.
 
 ### Action: Clash
 
@@ -630,7 +628,7 @@ TODO
 
 ### Creating Character Scopes
 
-Action descriptions should be specific enough to not apply to everything, but vague enough to apply to multiple different actions.
+Should apply to only one of the three pillars (combat, exploration, negotiation). Should either be a *technique* that applies to one action as long as you use the technique or a *condition* that applies to all actions as long as the condition is met.
 
 TODO: Expand
 
