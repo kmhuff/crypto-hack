@@ -6,6 +6,34 @@ header-includes: |
     \usepackage[textwidth=12.1cm,textheight=22cm]{geometry}
 ---
 
+# Introduction
+
+## What this game is for
+
+The Crypto Hack is a very flexible system, but it is designed to support some playstyles more than others. The author of this system is not the RPG police, and you can use the Crypto Hack any way you like. Still, you might have a more satisfying time if your game has the following attributes:
+
+### Adventure Focused
+
+The Crypto Hack is a *setting* neutral game. This means that the game system doesn't care if the players are jetting across the vaccum of space or delving into the ruins of an old dwarven mine. However, it isn't a *genre* neutral game.
+
+The Crypto Hack cares about adventure first and everything else second. It has rules for exploring various kinds of dangerous places, conducting high-stakes negotiations with allies and enemies, and fighting in desperate and dramatic struggles. It does not have rules for romantic relationships, or running shops, or campaigning for public office. That isn't to say that the player characters can't do these things in the course of a Crypto Hack campaign. It just means that they have to be hashed out entirely within the realm of roleplay, which can be less satisfying than an activity that has strong mechanical support.
+
+There is some wiggle room here. For instance, certain types of horror can be created by increasing the difficulty of an adventure scenario and setting an ominous mood, turning bold exploration into a desperate struggle for survival.
+
+The Crypto Hack is quite modular, so these limitations aren't absolute. The default "big three" activities (exploration, negotiation, and combat) aren't the only activities that could be resolved with the Crypto Hack's mechanics. If your group wants to focus your Crypto Hack campaign on something other than adventuring, feel free to add new procedures to the ones provided with these core rules. If they work out well for you, share them so that other groups can benefit from your group's experience!
+
+### Player Agency
+
+TODO
+
+### GM Preparation and Neutrality
+
+TODO
+
+## Design goals
+
+TODO
+
 # Rules
 
 ## Tasks
