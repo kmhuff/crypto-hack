@@ -178,7 +178,13 @@ On the other hand, if the sub-activities imply that the action took *more* time 
 
 ## Deprivation
 
-TODO
+Each day that a PC doesn't get enough food, water, or rest, they suffer 1 level of deprivation.
+
+The first three levels of deprivation taken by a PC reduce the number of rests the PC can take by 1 (see [Healing]). These rests are lost shortest-first, so a PC with 1 level of deprivaton only has two rests per day, one that takes a short turn and one that takes a long turn. This only affects natural rests, not rests granted as part of healing.
+
+Once the PC has taken three levels of deprivation and has no rests remaining, the next two levels of deprivation apply a cumulative 1-level circumstance penalty to all tasks.
+
+Once the PC has taken five levels of deprivation and has no rests and a 2-level circumstance penalty to all tasks, any further levels of deprivation will cause the character to die.
 
 ## Damage
 
