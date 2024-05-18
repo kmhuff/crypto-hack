@@ -166,15 +166,19 @@ Merely having the tools needed to perform a task does not count as a beneficial 
 
 Time is tracked at a certain scale depending on what the party is doing at the time. If the party is fighting, time is tracked in immediate turns. If they are exploring a location, it is tracked in short turns. 
 
-During each turn, each PC may take a single action appropriate to the activity the party is performing at the moment. For example, if the party is exploring the wilderness, each PC may take a single Wilderness Exploration action every turn. These actions include things like "Navigate the Wilderness", "Forage", and "Explore a Point of Interest'.
+During each turn, each PC may take a single action appropriate to the activity the party is performing at the moment. For example, if the party is exploring the wilderness, each PC may take a single Wilderness Exploration action every turn. These actions include things like [Action: Navigate], [Action: Forage], and [Action: Explore a Site].
 
 In addition to a single action at the current time scale, PCs may take any number of actions at a shorter time scale during a turn. For instance, the party Navigating the Wilderness (long turn) might engage in a Fight and rest to patch their wounds up afterwards (2 short turn actions). All that activity still takes one long turn.
 
 If the party is partway through an action and an event forces them to take another of the same length, both the partially completed action and the forced action occur during the same turn. For instance, a party exploring a dungon might be Moving Carefully (short turn) for 1 room (of a maximum of 2) before they run into some monsters and start a Fight (short turn). Both the movement and the combat happen during the same short turn. However, if that party instead moved 2 rooms (the maximum for Moving Carefully) before running into the Fight, the movement would happen during one short turn and the combat would happen during the next.
 
-An action never takes less than a turn, even if the sub-activities that make it up might imply that it did. For example, a party Exploring a Point of Interest descends into a dungeon and only spends 1 hour there (6 short turns). The "Explore a Point of Interest" action still takes the full 8-hour long turn.
+An action never takes less than a turn, even if the sub-activities that make it up might imply that it did. For example, a party Exploring a Point of Interest descends into a dungeon and only spends 1 hour there (6 short turns). The [Action: Explore a Site] action still takes the full 8-hour long turn.
 
 On the other hand, if the sub-activities imply that the action took *more* time than its entire turn, the party must take the action again. If a party manages to explore a dungeon for more than 8 hours or fight for more than 10 minutes (both impressive feats), the action "spills over" into the next turn and the party members all automatically take it again.
+
+## Deprivation
+
+TODO
 
 ## Damage
 
@@ -216,6 +220,14 @@ For example, a bard in a party of fantasy adventurers has the scope Silver Tongu
 You can aid yourself in many tasks by taking the time to set up and make your task easier for yourself. Note that each aid action takes as much time as the original action, so doing this will cause you to take, at best, twice as long to complete your task.
 
 In combat, you can take the aid action as normal, but you can also take it off your turn to aid an ally defending against a strike or stunt. You must forfeit your next turn if you do this, however.
+
+### Action: Heal
+
+TODO: Remove from Medicine and Magic Healing
+
+### Action: Interact
+
+TODO: Remove from below
 
 ## Combat
 
@@ -440,7 +452,7 @@ If a PC attempts an action that isn't exactly described by one of these options,
 
 ## Site Exploration
 
-Site exploration occurrs in a series of rounds, each of which last one short turn. During each round, each PC selects a single Site Exploration Action, which are resolved simultaneously.
+Site exploration occurrs in a series of rounds, each of which last one short turn. During each round, each PC selects a single site exploration action, which are resolved simultaneously.
 
 ### Rooms in Sites
 
@@ -462,13 +474,17 @@ GMs are encouraged to think up new resources that are appropriate to the setting
 
 In most sites, potentially hostile creatures will move from room to room periodically, rather than sitting in one place for the PC party to encounter them. The GM might use one of several methods for modeling this movement, discussed in [Modeling Enemy Movement]. This movement occurs at the end of each turn. If potentially hostile creatures enter the room where the PCs currently are, the party may be forced into a negotiation or a fight.
 
-### Fleeing in Sites
+### Fleeing within Sites
 
 On the PCs' turn in combat, some or all of them may choose to flee instead of acting. Only PCs that are able to take a Move action may flee, though the party is free to leave unfortunate comrades behind. Combat continues until every PC has fled, died, been captured, or is otherwise out of the fight. On the next short turn, fleeing PCs must take the Move Quickly action to get away from the site of the combat.
 
 Enemy combattants might or might not choose to pursue fleeing PCs. Cautious enemies or enemies that took significant losses or damage in the combat are less liely to pursue.
 
 Enemy combattants may also attempt to flee from the PCs. They might choose to flee in response to the combat going badly for them or an intimidating display from the PCs. GMs are encouraged to use the morale mechanics found in [Enemy Morale] to decide when enemies try to flee or surrender.
+
+### Escaping Sites
+
+TODO: LIGHT above
 
 ### Action: Move Carefully
 
@@ -486,7 +502,7 @@ The PCs move quickly trough the site, but are far more vulnerable to dangerous h
 
 The PCs carefully comb the current room for hidden treasures or features.
 
-Features in a site can either be observed, hidden, or secret. Observed features are obvious on a cursory examination of the room. The GM will tell the party about all of a room's observed features the instant they enter, no need to search. Hidden features aren't obvious without taking a bit of time and effort to look, but they aren't deliberately hidden, either. Any PC that takes the Search action in a room will find all of its Hidden features. Secret features were deliberately hidden away by previous inhabitants and take effort to find. A PC taking the search action can describe exactly how they search, if they want. If the course they describe would uncover the secret feature, they discover it.
+Features in a site can either be observed, hidden, or secret. Observed features are obvious on a cursory examination of the room. The GM will tell the party about all of a room's observed features the instant they enter, no need to search. Hidden features aren't obvious without taking a bit of time and effort to look, but they aren't deliberately hidden, either. Any PC that takes the search action in a room will find all of its hidden features. Secret features were deliberately hidden away by previous inhabitants and take effort to find. A PC taking the search action can describe exactly how they search, if they want. If the course they describe would uncover the secret feature, they discover it.
 
 ### Action: Fight
 
@@ -496,14 +512,73 @@ The PCs engage in combat against hostile creatures. Refer to [Combat] to resolve
 
 This is a catch-all action for various tasks that take a short turn within a site. Some examples of interact actions include:
 
-* Healing a companion.
+* Solving a puzzle (see [Puzzles]).
 * Having a discussion or negotiation (see [Negotiation]).
 
 ## Wilderness Exploration
 
+Wilderness exploration occurrs in a series of rounds, each of which last one long turn. During each round, each PC selects a single wilderness exploration action, which are resolved simultaneously. One long turn per day is usually used for sleep, which leaves two available for wilderness exploration.
+
+### Hexes in the Wilderness
+
+Wilderness exploration is measured in a hexagonal grid. Hex size is variable based on the scale of travel. A fantasy party traveling on foot might use 6 mile hexes. A sci-fi party traveling faster than light might use 100 light-year hexes.
+
+### Travel Speed in the Wilderness
+
+Base travel speed in the wilderness is 2 hexes per long turn in easy terrain and 1 hex per long turn in difficult terrain.
+
+It is often possible to acquire mounts or technology that improve this speed, but most of them only do so under certain conditions. If the terrain that the party is traveling over meets the conditions of the mount or technology that they are using for the entire duration of their travel, it allows them to travel 1 additional hex. For example, horses are only an advantage in flat terrain. In rough terrain, they only go as fast as their riders would on foot, or sometimes even slower.
+
+### Finding Sites in the Wilderness
+
+Even a 6-mile hex is huge, and might contain an equally huge number of interesting locations. Most of the time in completely untamed trackless wilderness, there is an average of one interesting site per hex.
+
+Each time the party enters a hex (see [Entering a Hex]), there is a random chance that they stumble across each of the locations within. The chance ranges from 6 in 6 for sites that are guaranteed to be found by anyone in the hex (huge towers, for example) to 1 in 6 for locations that are tucked away and hidden. Unlike most rolls in the Crypto Hack, this random roll is kept secret from players. They don't know whether or not there is something in the hex to find, after all.
+
+If the party suspects that there is something else interesting to be found in a hex, they can take the action [Action: Search] to spend a long turn comimg the hex for sites.
+
+### Entering a Hex
+
+When the party enters a hex, they learn a few pieces of information:
+
+#. The GM gives them a description of what is in the current hex in general terms.
+#. They learn the terrain types of any adjacent hexes they haven't seen yet.
+#. They see any features in adjacent hexes that are large or noticeable enough to be seen from the PCs' current location.
+#. They might find locations or features in their current hex, if they are lucky enough to stumble across them (see [Finding Sites in the Wilderness]).
+
+### Resource Management in the Wilderness
+
+Exploring the wilderness often requires managing some sort of resource to add tension and difficulty. Classically, this resource is something like food rations, but it could also be starship fuel or any other resource that makes sense in the setting.
+
+Resources deplete either at the end of a long turn (for something like starship fuel) or at the end of the day (for something like rations). Running out of resources has consequences depending on the resource in question.
+
+**Food**: Each PC without food at the end of the day begins suffering [Deprivation].
+
+**Starship Fuel**: The starship can no longer move, and must wait for either rescue or enemies to come upon it.
+
+GMs are encouraged to think up new resources that are appropriate to the setting of their game or the specific nature of the wilderness that the PC party is exploring.
+
+### Encounters in the Wilderness
+
+Other creatures in the wilderness don't simply stay in sites and wait for the PC party to encounter them. The GM might use one of several methods for modeling this movement, discussed in [Modeling Enemy Movement]. This movement occurs at the end of each turn. If potentially hostile creatures enter the hex where the PCs currently are, the two groups might not necessarily even encounter one another. Hexes are very large, after all. If the two groups do come into contact, however, the party might be forced into a negotiation or a fight.
+
+### Action: Navigate
+
 TODO
 
-## Mystery Solving
+### Action: Look Out
+
+TODO
+
+### Action: Forage
+
+TODO
+
+### Action: Search
+
+TODO
+
+### Action: Explore a Site
 
 TODO
 
@@ -572,6 +647,8 @@ Bow               Might         Piercing        2                   Ranged      
 
 ### Armor
 
+TODO
+
 ## NPCs
 
 TODO
@@ -610,7 +687,7 @@ There are a number of ways that characters can become more powerful over the cou
 
 These advancement benefits are not acquired with experience points, like in other RPGs. Instead, they are rewards for engaging with the world in specific ways, normally completing side quests and helping NPCs.
 
-The GM decides what exactly merits an advancement benefit in the campaign. How exactly the GM should do this is discussed in the Game Mastering section.
+The GM decides what exactly merits an advancement benefit in the campaign. How exactly the GM should do this is discussed in the [Game Mastering] section.
 
 # Game Mastering
 
@@ -650,11 +727,11 @@ TODO
 
 TODO
 
-### Social Challenges
+### Negotiations
 
 TODO
 
-### Dungeons
+### Sites
 
 TODO
 
