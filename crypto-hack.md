@@ -636,6 +636,10 @@ TODO
 
 TODO
 
+### Enhanced Equipment
+
+TODO: +1 to +5 damage weapons
+
 ### Light Sources
 
 TODO
@@ -691,11 +695,11 @@ TODO
 
 TODO
 
-## Vehicles and Mounts
+## Scale
 
 TODO
 
-## Scale
+## Vehicles and Mounts
 
 TODO
 
@@ -784,3 +788,14 @@ TODO
 ## Rewards and Character Advancement
 
 TODO
+
+# GM-less Play
+
+## Zone Types
+
+TODO: Zones: Territories, Regions, and Areas
+
+## Creating Your World
+
+TODO
+
